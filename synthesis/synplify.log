@@ -1,0 +1,65 @@
+
+Starting:    C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\win64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1
+Date:        Wed Dec 04 16:42:40 2013
+Version:     G-2012.09M-SP1 
+
+Arguments:   -product synplify_pro  -licensetype synplifypro_actel -batch -log synplify.log controller_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+
+log file: "N:\373\base_station-master\synthesis\controller.srr"
+
+
+Running controller_syn|synthesis
+
+Running Compile on controller_syn|synthesis
+
+Running Compile Process on controller_syn|synthesis
+
+Running Compile Input on controller_syn|synthesis
+
+Copied N:\373\base_station-master\synthesis\synwork\controller_compiler.srs to N:\373\base_station-master\synthesis\controller.srs
+
+compiler Completed with warnings
+Return Code: 1
+Run Time:0h:00m:04s
+
+
+Job Compile Process completed on controller_syn|synthesis
+
+Running Premap on controller_syn|synthesis
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:02s
+
+
+Job Compile completed on controller_syn|synthesis
+
+Running Map on controller_syn|synthesis
+
+Running Map & Optimize on controller_syn|synthesis
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:06s
+
+
+Job Map completed on controller_syn|synthesis
+
+Job Logic Synthesis completed on controller_syn|synthesis
+
+TCL script complete: "controller_syn.tcl"
+
+exit status=0
+
+

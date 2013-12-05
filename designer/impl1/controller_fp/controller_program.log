@@ -1,0 +1,46 @@
+FlashPro
+Version: 11.0.0.23
+Release: v11.0
+
+Software Version: 11.0.0.23
+PDB file 'N:\373\base_station-master\designer\impl1\controller_fp\controller.pdb' has been
+loaded successfully.
+DESIGN : controller;  CHECKSUM : 1B65;  PDB_VERSION : 1.8
+Driver : 3.0.0 build 1
+programmer '78388' : FlashPro3
+Opened 'N:/373/base_station-master/designer/impl1/controller_fp/controller.pro'
+The 'open_project' command succeeded.
+The 'set_programming_file' command succeeded.
+The 'set_device_type' command succeeded.
+The 'set_device_package' command succeeded.
+Info: Adding Flash Memory data from file
+      N:\373\base_station-master\component\work\controller_MSS\MSS_ENVM_0\MSS_ENVM_0.efc.
+Info: Adding FPGA Array data from file N:\373\base_station-master\designer\impl1\controller.fdb.
+PDB file 'N:\373\base_station-master\designer\impl1\controller_fp\controller.pdb' has been
+loaded successfully.
+DESIGN : controller;  CHECKSUM : 1B65;  PDB_VERSION : 1.8
+The 'update_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '78388' : Scan Chain...
+Warning: programmer '78388' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '78388' : Scan Chain PASSED.
+programmer '78388' : Executing action PROGRAM
+programmer '78388' : EXPORT FSN[48] = 0114ab40507c
+programmer '78388' : Erase ...
+programmer '78388' : Completed erase
+programmer '78388' : EXPORT CHECKSUM: [16] = 1b65
+programmer '78388' : Programming FPGA Array
+programmer '78388' : Verifying FPGA Array
+programmer '78388' :         Verifying FPGA Array -- pass
+programmer '78388' : Program System Init and Boot Clients...
+programmer '78388' : Verify System Init and Boot Clients...
+programmer '78388' : Finished: Wed Dec 04 19:42:35 2013 (Elapsed time 00:00:38)
+programmer '78388' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

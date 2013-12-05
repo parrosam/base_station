@@ -1,0 +1,3 @@
+@E: CG342 :"C:\Users\rwooster\Documents\IntegratedSegway\controller\hdl\servo_left.v":26:1:26:10|Expecting target variable, found pulseWidth -- possible misspelling
+@E: CS187 :"C:\Users\rwooster\Documents\IntegratedSegway\controller\hdl\servo_left.v":51:0:51:8|Expecting endmodule
+

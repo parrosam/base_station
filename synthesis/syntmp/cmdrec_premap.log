@@ -1,0 +1,14 @@
+C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\bin64\m_proasic.exe  -prodtype synplify_pro -encrypt  -pro  -rundir  N:\373\base_station-master\synthesis  -part A2F200M3F  -package FBGA484  -grade -1   -globalthreshold 50 -maxfan 24 -opcond COMWC     -report_path 0   -RWCheckOnRam 0     -summaryfile N:\373\base_station-master\synthesis\synlog\report\controller_premap.xml -top_level_module  controller  -oedif  N:\373\base_station-master\synthesis\controller.edn  -conchk_prepass  N:\373\base_station-master\synthesis\controller_cck_prepass.rpt  -freq 100.000  -tcl  N:\373\base_station-master\component\work\controller_MSS\mss_tshell_syn.sdc  N:\373\base_station-master\synthesis\synwork\controller_compiler.srs  -flow prepass  -gcc_prepass  -osrd  N:\373\base_station-master\synthesis\synwork\controller_premap.srd  -qsap  N:\373\base_station-master\synthesis\controller.sap  -devicelib  C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\proasic\smartfusion.v  -ologparam  N:\373\base_station-master\synthesis\syntmp\controller.plg  -osyn  N:\373\base_station-master\synthesis\synwork\controller_premap.srd  -prjdir  N:\373\base_station-master\synthesis\  -prjname  controller_syn  -log  N:\373\base_station-master\synthesis\synlog\controller_premap.srr 
+rc:1 success:1
+N:\373\base_station-master\synthesis\controller.edn|o|1386190285|602515
+N:\373\base_station-master\synthesis\controller_cck_prepass.rpt|o|0|0
+N:\373\base_station-master\component\work\controller_MSS\mss_tshell_syn.sdc|i|1386192489|200
+N:\373\base_station-master\synthesis\synwork\controller_compiler.srs|i|1386193363|70834
+N:\373\base_station-master\synthesis\synwork\controller_premap.srd|o|1386193366|70272
+N:\373\base_station-master\synthesis\controller.sap|o|1386193366|12303
+C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\proasic\smartfusion.v|i|1360942192|72817
+N:\373\base_station-master\synthesis\syntmp\controller.plg|o|1386193365|0
+N:\373\base_station-master\synthesis\synwork\controller_premap.srd|o|1386193366|70272
+N:\373\base_station-master\synthesis\synlog\controller_premap.srr|o|1386193366|1656
+C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\bin64\m_proasic.exe|i|1360942034|13812224
+C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\bin\m_proasic.exe|i|1360942022|11409920

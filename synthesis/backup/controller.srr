@@ -1,0 +1,433 @@
+#Build: Synplify Pro G-2012.09M-SP1 , Build 013R, Feb 15 2013
+#install: C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1
+#OS: Windows 7 6.1
+#Hostname: EECS373-08
+
+#Implementation: synthesis
+
+$ Start of Compile
+#Thu Nov 07 12:12:11 2013
+
+Synopsys Verilog Compiler, version comp201209rcp1, Build 245R, built Feb 20 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@I::"C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\proasic\smartfusion.v"
+@I::"C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\vlog\umr_capim.v"
+@I::"C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\vlog\scemi_objects.v"
+@I::"C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\vlog\scemi_pipes.svh"
+@I::"C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\vlog\hypermods.v"
+@I::"N:\373\controller\hdl\controller.v"
+@I::"N:\373\controller\component\work\controller_MSS\mss_tshell.v"
+@I::"N:\373\controller\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v"
+@I::"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v"
+@I::"N:\373\controller\component\work\controller_MSS\controller_MSS.v"
+@I::"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v"
+@I::"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v"
+@I::"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v"
+@I::"N:\373\controller\component\work\controller\controller.v"
+@W: CG775 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
+Verilog syntax check successful!
+Selecting top level module controller
+@N: CG364 :"N:\373\controller\hdl\controller.v":27:7:27:14|Synthesizing module clockDiv
+
+@W: CL169 :"N:\373\controller\hdl\controller.v":31:1:31:6|Pruning register count 
+
+@W: CL189 :"N:\373\controller\hdl\controller.v":31:1:31:6|Register bit divCLK is always 0, optimizing ...
+@N: CG364 :"N:\373\controller\hdl\controller.v":1:7:1:26|Synthesizing module controller_interface
+
+@N: CG364 :"N:\373\controller\component\work\controller_MSS\mss_tshell.v":1:7:1:13|Synthesizing module MSS_APB
+
+@N: CG364 :"N:\373\controller\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC
+
+@N: CG364 :"C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\proasic\smartfusion.v":2620:7:2620:11|Synthesizing module RCOSC
+
+@N: CG364 :"C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\proasic\smartfusion.v":1141:7:1141:9|Synthesizing module GND
+
+@N: CG364 :"C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\proasic\smartfusion.v":1868:7:1868:9|Synthesizing module VCC
+
+@N: CG364 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:42|Synthesizing module controller_MSS_tmp_MSS_CCC_0_MSS_CCC
+
+@N: CG364 :"N:\373\controller\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS
+
+@N: CG364 :"N:\373\controller\component\work\controller_MSS\controller_MSS.v":9:7:9:20|Synthesizing module controller_MSS
+
+@W: CG775 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
+@N: CG364 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:5|Synthesizing module CAPB3l
+
+@N: CG364 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3
+
+	APB_DWIDTH=6'b100000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b0
+	APBSLOT2ENABLE=1'b0
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b011100
+	UPR_NIBBLE_POSN=4'b0110
+	CAPB3I1I=32'b00000000000000000000000000000000
+	CAPB3l1I=32'b00000000000000000000000000000001
+	CAPB3OOl=32'b00000000000000000000000000000010
+	CAPB3IOl=32'b00000000000000000000000000000011
+	CAPB3lOl=32'b00000000000000000000000000000100
+	CAPB3OIl=32'b00000000000000000000000000000101
+	CAPB3IIl=32'b00000000000000000000000000000110
+	CAPB3lIl=32'b00000000000000000000000000000111
+	CAPB3Oll=32'b00000000000000000000000000001000
+	CAPB3Ill=32'b00000000000000000000000000001001
+	CAPB3lll=32'b00000000000000000000000000001010
+	CAPB3O0l=32'b00000000000000000000000000001011
+	CAPB3I0l=32'b00000000000000000000000000001100
+	CAPB3l0l=32'b00000000000000000000000000001101
+	CAPB3O1l=32'b00000000000000000000000000001110
+	CAPB3I1l=32'b00000000000000000000000000001111
+	CAPB3l1l=32'b00000000000000000000000000010000
+	CAPB3OO0=32'b00000000000000000000000000010001
+	CAPB3IO0=16'b0000000000000001
+	CAPB3lO0=16'b0000000000000000
+	CAPB3OI0=16'b0000000000000000
+	CAPB3II0=16'b0000000000000000
+	CAPB3lI0=16'b0000000000000000
+	CAPB3Ol0=16'b0000000000000000
+	CAPB3Il0=16'b0000000000000000
+	CAPB3ll0=16'b0000000000000000
+	CAPB3O00=16'b0000000000000000
+	CAPB3I00=16'b0000000000000000
+	CAPB3l00=16'b0000000000000000
+	CAPB3O10=16'b0000000000000000
+	CAPB3I10=16'b0000000000000000
+	CAPB3l10=16'b0000000000000000
+	CAPB3OO1=16'b0000000000000000
+	CAPB3IO1=16'b0000000000000000
+	CAPB3lO1=16'b0000000000000000
+	CAPB3OI1=16'b0000000000000000
+   Generated name = CoreAPB3_Z1
+
+@W: CG360 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":1477:0:1477:8|No assignment to wire CAPB3lIOI
+
+@N: CG364 :"N:\373\controller\component\work\controller\controller.v":9:7:9:16|Synthesizing module controller
+
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":378:0:378:4|Input IADDR is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":380:0:380:6|Input PRESETN is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":382:0:382:3|Input PCLK is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":503:0:503:7|Input PRDATAS1 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":510:0:510:7|Input PRDATAS2 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":517:0:517:7|Input PRDATAS3 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":524:0:524:7|Input PRDATAS4 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":531:0:531:7|Input PRDATAS5 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":538:0:538:7|Input PRDATAS6 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":545:0:545:7|Input PRDATAS7 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":552:0:552:7|Input PRDATAS8 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":559:0:559:7|Input PRDATAS9 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":566:0:566:8|Input PRDATAS10 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":573:0:573:8|Input PRDATAS11 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":580:0:580:8|Input PRDATAS12 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":587:0:587:8|Input PRDATAS13 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":594:0:594:8|Input PRDATAS14 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":601:0:601:8|Input PRDATAS15 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":612:0:612:7|Input PREADYS1 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":614:0:614:7|Input PREADYS2 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":616:0:616:7|Input PREADYS3 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":618:0:618:7|Input PREADYS4 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":620:0:620:7|Input PREADYS5 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":622:0:622:7|Input PREADYS6 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":624:0:624:7|Input PREADYS7 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":626:0:626:7|Input PREADYS8 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":628:0:628:7|Input PREADYS9 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":630:0:630:8|Input PREADYS10 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":632:0:632:8|Input PREADYS11 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":634:0:634:8|Input PREADYS12 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":636:0:636:8|Input PREADYS13 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":638:0:638:8|Input PREADYS14 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":640:0:640:8|Input PREADYS15 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":646:0:646:8|Input PSLVERRS1 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":648:0:648:8|Input PSLVERRS2 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":650:0:650:8|Input PSLVERRS3 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":652:0:652:8|Input PSLVERRS4 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":654:0:654:8|Input PSLVERRS5 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":656:0:656:8|Input PSLVERRS6 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":658:0:658:8|Input PSLVERRS7 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":660:0:660:8|Input PSLVERRS8 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":662:0:662:8|Input PSLVERRS9 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":664:0:664:9|Input PSLVERRS10 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":666:0:666:9|Input PSLVERRS11 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":668:0:668:9|Input PSLVERRS12 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":670:0:670:9|Input PSLVERRS13 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":672:0:672:9|Input PSLVERRS14 is unused
+@W: CL159 :"N:\373\controller\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":674:0:674:9|Input PSLVERRS15 is unused
+@W: CL157 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL159 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":36:7:36:10|Input CLKA is unused
+@W: CL159 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":37:7:37:14|Input CLKA_PAD is unused
+@W: CL159 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":38:7:38:15|Input CLKA_PADP is unused
+@W: CL159 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":39:7:39:15|Input CLKA_PADN is unused
+@W: CL159 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":40:7:40:10|Input CLKB is unused
+@W: CL159 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":41:7:41:14|Input CLKB_PAD is unused
+@W: CL159 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":42:7:42:15|Input CLKB_PADP is unused
+@W: CL159 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":43:7:43:15|Input CLKB_PADN is unused
+@W: CL159 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":44:7:44:10|Input CLKC is unused
+@W: CL159 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":45:7:45:14|Input CLKC_PAD is unused
+@W: CL159 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":46:7:46:15|Input CLKC_PADP is unused
+@W: CL159 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":47:7:47:15|Input CLKC_PADN is unused
+@W: CL159 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":48:7:48:13|Input MAINXIN is unused
+@W: CL159 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":49:7:49:11|Input LPXIN is unused
+@W: CL159 :"N:\373\controller\component\work\controller_MSS\MSS_CCC_0\controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":50:7:50:13|Input MAC_CLK is unused
+@W: CL159 :"N:\373\controller\hdl\controller.v":3:8:3:14|Input PRESERN is unused
+@W: CL158 :"N:\373\controller\hdl\controller.v":17:12:17:17|Inout contRW is unused
+@W: CL159 :"N:\373\controller\hdl\controller.v":27:27:27:30|Input PCLK is unused
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Nov 07 12:12:13 2013
+
+###########################################################]
+Premap Report
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 904R, Built Feb 15 2013 10:53:22
+Copyright (C) 1994-2012, Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version G-2012.09M-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+Reading constraint file: N:\373\controller\component\work\controller_MSS\mss_tshell_syn.sdc
+@L: N:\373\controller\synthesis\controller_scck.rpt 
+Printing clock  summary report in "N:\373\controller\synthesis\controller_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 94MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 94MB)
+
+@W: BN522 |Property syn_clock_priority is not supported for this target technology
+Finished Pre Mapping Phase.@N: BN225 |Writing default property annotation file N:\373\controller\synthesis\controller.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 40MB peak: 104MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Thu Nov 07 12:12:17 2013
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 904R, Built Feb 15 2013 10:53:22
+Copyright (C) 1994-2012, Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version G-2012.09M-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+@W: MO111 :"n:\373\controller\component\work\controller_mss\mss_ccc_0\controller_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module controller_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"n:\373\controller\component\work\controller_mss\mss_ccc_0\controller_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module controller_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"n:\373\controller\component\work\controller_mss\mss_ccc_0\controller_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT on net RCOSC_CLKOUT has its enable tied to GND (module controller_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@N: BN115 :"n:\373\controller\component\work\controller\controller.v":180:0:180:9|Removing instance CoreAPB3_0 of view:COREAPB3_LIB.CoreAPB3_Z1(verilog) because there are no references to its outputs 
+@N: BN115 :"n:\373\controller\component\work\controller\controller.v":126:15:126:30|Removing instance controller_MSS_0 of view:work.controller_MSS(verilog) because there are no references to its outputs 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+= Non-Gated/Non-Generated Clocks =
+************** None **************
+----------------------------------
+==================================
+===== Gated/Generated Clocks =====
+************** None **************
+----------------------------------
+==================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base N:\373\controller\synthesis\controller.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+Writing EDIF Netlist and constraint files
+G-2012.09M-SP1 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Nov 07 12:12:19 2013
+#
+
+
+Top view:               controller
+Library name:           smartfusion
+Operating conditions:   COMWC-1 ( T = 70.0, V = 1.42, P = 1.48, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    N:\373\controller\component\work\controller_MSS\mss_tshell_syn.sdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock      
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group      
+-------------------------------------------------------------------------------------------------------------
+FAB_CLK            100.0 MHz     NA            10.000        NA            NA        declared     clk_group_0
+FCLK               100.0 MHz     NA            10.000        NA            NA        declared     clk_group_0
+=============================================================================================================
+@W: MT511 :"n:/373/controller/component/work/controller_mss/mss_tshell_syn.sdc":1:0:1:0|Clock source n:controller_MSS_0.MSS_CCC_0.FAB_CLK not found in netlist: define_clock {n:controller_MSS_0.MSS_CCC_0.FAB_CLK} -name {FAB_CLK} -freq {100} -clockgroup {clk_group_0} 
+@W: MT511 :"n:/373/controller/component/work/controller_mss/mss_tshell_syn.sdc":2:0:2:0|Clock source n:controller_MSS_0.MSS_CCC_0.GLA0 not found in netlist: define_clock {n:controller_MSS_0.MSS_CCC_0.GLA0} -name {FCLK} -freq {100} -clockgroup {clk_group_0} 
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: A2F200M3F_FBGA484_-1
+Report for cell controller.verilog
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               VCC     1      0.0        0.0
+
+
+                   -----          ----------
+             TOTAL     2                 0.0
+
+
+  IO Cell usage:
+              cell count
+            OUTBUF     1
+                   -----
+             TOTAL     1
+
+
+Core Cells         : 0 of 4608 (0%)
+IO Cells           : 1
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 39MB peak: 102MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Thu Nov 07 12:12:19 2013
+
+###########################################################]
