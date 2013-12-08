@@ -1,0 +1,91 @@
+#include "controller.h"
+#include "display.h"
+
+#include "drivers/CoreUARTapb/core_uart_apb.h"
+#include "drivers/mss_uart/mss_uart.h"
+
+#include <inttypes.h>
+#include <stdio.h>
+
+#define BAUD_VALUE_9600 650
+#define CONTROLLER_ADDR 0x40050000
+#define CORE_UART_APB_ADDR 0x40050100
+
+union {
+	float f;
+	uint8_t c[4];
+} kp, ki, kd, angle;
+
+int main() {
+	// For the lcd display
+//	MSS_UART_init
+//	(
+//		&g_mss_uart1,
+//	    MSS_UART_115200_BAUD,
+//	    MSS_UART_DATA_8_BITS | MSS_UART_NO_PARITY | MSS_UART_ONE_STOP_BIT
+//	);
+	//clear_screen();
+
+	/* Receive Side */
+//	MSS_UART_init
+//	(
+//		&g_mss_uart1,
+//		MSS_UART_9600_BAUD,
+//		(MSS_UART_DATA_8_BITS | MSS_UART_NO_PARITY | MSS_UART_ONE_STOP_BIT)
+//	);
+
+
+	/* Transmit Side */
+	UART_instance_t xbee;
+	UART_init(
+		&xbee,
+		CORE_UART_APB_ADDR,
+		BAUD_VALUE_9600,
+		(DATA_8_BITS | NO_PARITY)
+	);
+
+	//volatile int i = 0;
+	//float x = -90; // For lcd display test code, can get rid of this later
+
+	int flip = 0;
+	while( 1 ) {
+		// lcd display test code
+//		if((i%10000) == 0){
+//			print_degrees(x);
+//			x += 10;
+//
+//			if (x > 90)
+//				x = -90;
+//			i = 0;
+//		}
+//		i++;
+		/* TRANSMIT SIDE */
+
+		if (flip % 99 != 0) {
+			volatile uint32_t * controller = (uint32_t *) CONTROLLER_ADDR;
+			uint32_t buttons = *controller;
+			//printButtons(buttons);
+
+			uint8_t buttonMsg[4];
+			buttonMsg[0] = buttons;			// Break up buttons into 4x 8 bit chunks
+			buttonMsg[1] = (buttons >> 8);
+			buttonMsg[2] = (buttons >> 16);
+			buttonMsg[3] = (buttons >> 24);
+			UART_send(&xbee, (uint8_t *)&buttonMsg, sizeof(buttonMsg));
+		} else {
+			uint8_t receive[4];
+			uint32_t rx_size = UART_get_rx( &xbee, receive, sizeof(receive));
+			if (rx_size > 0){
+				//process_rx_data(rx_buttons, rx_size);
+				kp.c[0] = receive[0];
+				kp.c[1] = receive[1];
+				kp.c[2] = receive[2];
+				kp.c[3] = receive[3];
+				printf("KP: %f\r\n", kp.f);
+			}
+		}
+		flip++;
+	}
+
+	return 0;
+}

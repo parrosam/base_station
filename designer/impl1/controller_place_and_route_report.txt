@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Wed Dec 04 16:43:49 2013 ***************************************************************************
+                          Sat Dec 07 13:35:53 2013 ***************************************************************************
 
 Product: Designer
 Release: v11.0
 Version: 11.0.0.23
-File Name: N:\373\base_station-master\designer\impl1\controller.adb
+File Name: C:\Users\rwooster\Documents\base_station\designer\impl1\controller.adb
 Design Name: controller  Design State: layout
-Last Saved: Wed Dec 04 16:43:07 2013
+Last Saved: Sat Dec 07 13:35:12 2013
 
 ***** Device Data **************************************************
 
@@ -22,9 +22,9 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Wed Dec 04 16:42:59 2013:
-        N:\373\base_station-master\synthesis\controller.edn
-        N:\373\base_station-master\component\work\controller\controller.pdc
+Source File(s) Imported on Sat Dec 07 13:34:58 2013:
+        C:\Users\rwooster\Documents\base_station\synthesis\controller.edn
+        C:\Users\rwooster\Documents\base_station\component\work\controller\controller.pdc
 
 
 ***** CAE Variables ************************************************
@@ -50,8 +50,8 @@ Parameters used to run compile:
 Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
-Source      : N:\373\base_station-master\synthesis\controller.edn
-              N:\373\base_station-master\component\work\controller\controller.pdc
+Source      : C:\Users\rwooster\Documents\base_station\synthesis\controller.edn
+              C:\Users\rwooster\Documents\base_station\component\work\controller\controller.pdc
 Format      : EDIF
 Topcell     : controller
 Speed grade : -1
@@ -567,16 +567,16 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Wed Dec 04 16:43:16 2013
+Timing-driven Placer Started: Sat Dec 07 13:35:17 2013
 
-Placer Finished: Wed Dec 04 16:43:26 2013
+Placer Finished: Sat Dec 07 13:35:27 2013
 Total Placer CPU Time:     00:00:10
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: controller                      Started: Wed Dec 04 16:43:30 2013
+Design: controller                      Started: Sat Dec 07 13:35:32 2013
 
  
 Iterative improvement...
@@ -584,9 +584,9 @@ Iterative improvement...
 Timing-driven Router completed successfully.
 
 Design: controller                      
-Finished: Wed Dec 04 16:43:45 2013
+Finished: Sat Dec 07 13:35:47 2013
 Total CPU Time:     00:00:14            Total Elapsed Time: 00:00:15
-Total Memory Usage: 158.9 Mbytes
+Total Memory Usage: 159.4 Mbytes
                         o - o - o - o - o - o
 
 

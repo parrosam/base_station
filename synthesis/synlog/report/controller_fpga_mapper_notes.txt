@@ -1,8 +1,8 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled 
-@N: MF238 :"n:\373\base_station-master\hdl\poll.v":19:12:19:21|Found 20-bit incrementor, 'count_2[19:0]'
-@N: BN362 :"n:\373\base_station-master\component\work\controller\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1414:0:1414:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTIl1.CUARTllI of view:PrimLib.dffs(prim) in hierarchy view:work.controller(verilog) because there are no references to its outputs 
-@N: BN362 :"n:\373\base_station-master\component\work\controller\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1414:0:1414:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTIl1.CUARTl1l_1 of view:PrimLib.dffr(prim) in hierarchy view:work.controller(verilog) because there are no references to its outputs 
+@N: MF238 :"c:\users\rwooster\documents\base_station\hdl\poll.v":19:12:19:21|Found 20-bit incrementor, 'count_2[19:0]'
+@N: BN362 :"c:\users\rwooster\documents\base_station\component\work\controller\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1414:0:1414:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTIl1.CUARTllI of view:PrimLib.dffs(prim) in hierarchy view:work.controller(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\rwooster\documents\base_station\component\work\controller\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1414:0:1414:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTIl1.CUARTl1l_1 of view:PrimLib.dffr(prim) in hierarchy view:work.controller(verilog) because there are no references to its outputs 
 @N: FP130 |Promoting Net PRESETN_c on CLKBUF  PRESETN_pad 
 @N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
 @N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.

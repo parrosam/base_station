@@ -5,7 +5,7 @@ The file contains the job information from mapper to be displayed as part of the
 *******************************************************************************************-->
 <job_run_status name="Mapper">
 <report_link name="Detailed report">
-<data>N:\373\base_station-master\synthesis\synlog\controller_premap.srr</data>
+<data>C:\Users\rwooster\Documents\base_station\synthesis\synlog\controller_premap.srr</data>
 </report_link>
 <job_status>
 <data>Completed</data>
@@ -14,32 +14,32 @@ The file contains the job information from mapper to be displayed as part of the
 <info name="Notes">
 <data>3</data>
 <report_link name="more">
-<data>N:\373\base_station-master\synthesis\synlog\report\controller_premap_notes.txt</data>
+<data>C:\Users\rwooster\Documents\base_station\synthesis\synlog\report\controller_premap_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
 <data>1</data>
 <report_link name="more">
-<data>N:\373\base_station-master\synthesis\synlog\report\controller_premap_warnings.txt</data>
+<data>C:\Users\rwooster\Documents\base_station\synthesis\synlog\report\controller_premap_warnings.txt</data>
 </report_link>
 </info>
 <info name="Errors">
 <data>0</data>
 <report_link name="more">
-<data>N:\373\base_station-master\synthesis\synlog\report\controller_premap_errors.txt</data>
+<data>C:\Users\rwooster\Documents\base_station\synthesis\synlog\report\controller_premap_errors.txt</data>
 </report_link>
 </info>
 <info name="CPU Time">
 <data>0h:00m:00s</data>
 </info>
 <info name="Real Time">
-<data>0h:00m:01s</data>
+<data>0h:00m:00s</data>
 </info>
 <info name="Peak Memory">
 <data>105MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1386193366</data>
+<data type="timestamp">1386441291</data>
 </info>
 </job_info>
 </job_run_status>

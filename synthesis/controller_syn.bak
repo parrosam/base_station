@@ -1,27 +1,25 @@
 #--  Synopsys, Inc.
 #--  Version G-2012.09M-SP1 
-#--  Project file N:\373\base_station-master\synthesis\controller_syn.prj
+#--  Project file C:\Users\rwooster\Documents\base_station\synthesis\controller_syn.prj
 
 #project files
-add_file -verilog "N:/373/base_station-master/component/work/controller_MSS/mss_tshell.v"
-add_file -verilog "N:/373/base_station-master/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
-add_file -verilog "N:/373/base_station-master/component/work/controller_MSS/MSS_CCC_0/controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v"
-add_file -verilog "N:/373/base_station-master/component/work/controller_MSS/controller_MSS.v"
-add_file -verilog "N:/373/base_station-master/component/work/controller/CoreUARTapb_0/rtl/vlog/core_obfuscated/Clock_gen.v"
-add_file -verilog "N:/373/base_station-master/component/work/controller/CoreUARTapb_0/rtl/vlog/core_obfuscated/Tx_async.v"
-add_file -verilog "N:/373/base_station-master/component/work/controller/CoreUARTapb_0/rtl/vlog/core_obfuscated/Rx_async.v"
-add_file -verilog "N:/373/base_station-master/component/work/controller/CoreUARTapb_0/rtl/vlog/core_obfuscated/fifo_256x8_smartfusion.v"
-add_file -verilog "N:/373/base_station-master/component/work/controller/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUART.v"
-add_file -verilog "N:/373/base_station-master/component/work/controller/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUARTapb.v"
-add_file -verilog "N:/373/base_station-master/hdl/poll.v"
-add_file -verilog "N:/373/base_station-master/hdl/read.v"
-add_file -verilog "N:/373/base_station-master/hdl/servo_left.v"
-add_file -verilog "N:/373/base_station-master/hdl/servo_right.v"
-add_file -verilog -lib COREAPB3_LIB "N:/373/base_station-master/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
-add_file -verilog -lib COREAPB3_LIB "N:/373/base_station-master/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
-add_file -verilog -lib COREAPB3_LIB "N:/373/base_station-master/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3.v"
-add_file -verilog "N:/373/base_station-master/component/work/controller/controller.v"
-add_file -constraint "N:/373/base_station-master/component/work/controller_MSS/mss_tshell_syn.sdc"
+add_file -verilog "C:/Users/rwooster/Documents/base_station/component/work/controller_MSS/mss_tshell.v"
+add_file -verilog "C:/Users/rwooster/Documents/base_station/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
+add_file -verilog "C:/Users/rwooster/Documents/base_station/component/work/controller_MSS/MSS_CCC_0/controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v"
+add_file -verilog "C:/Users/rwooster/Documents/base_station/component/work/controller_MSS/controller_MSS.v"
+add_file -verilog "C:/Users/rwooster/Documents/base_station/component/work/controller/CoreUARTapb_0/rtl/vlog/core_obfuscated/Clock_gen.v"
+add_file -verilog "C:/Users/rwooster/Documents/base_station/component/work/controller/CoreUARTapb_0/rtl/vlog/core_obfuscated/Tx_async.v"
+add_file -verilog "C:/Users/rwooster/Documents/base_station/component/work/controller/CoreUARTapb_0/rtl/vlog/core_obfuscated/Rx_async.v"
+add_file -verilog "C:/Users/rwooster/Documents/base_station/component/work/controller/CoreUARTapb_0/rtl/vlog/core_obfuscated/fifo_256x8_smartfusion.v"
+add_file -verilog "C:/Users/rwooster/Documents/base_station/component/work/controller/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUART.v"
+add_file -verilog "C:/Users/rwooster/Documents/base_station/component/work/controller/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUARTapb.v"
+add_file -verilog "C:/Users/rwooster/Documents/base_station/hdl/poll.v"
+add_file -verilog "C:/Users/rwooster/Documents/base_station/hdl/read.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/rwooster/Documents/base_station/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/rwooster/Documents/base_station/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/rwooster/Documents/base_station/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3.v"
+add_file -verilog "C:/Users/rwooster/Documents/base_station/component/work/controller/controller.v"
+add_file -constraint "C:/Users/rwooster/Documents/base_station/component/work/controller_MSS/mss_tshell_syn.sdc"
 
 
 #implementation: "synthesis"

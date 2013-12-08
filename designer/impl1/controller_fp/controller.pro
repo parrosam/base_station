@@ -1,22 +1,22 @@
 <project name="controller" version="1.1">
     <ProjectDirectory>
-        N:/373/base_station-master/designer/impl1/controller_fp
+        C:/Users/rwooster/Documents/base_station/designer/impl1/controller_fp
     </ProjectDirectory>
     <View>
         SingleSTAPLView
     </View>
     <LogFile>
-        N:/373/base_station-master/designer/impl1/controller_fp/controller.log
+        C:/Users/rwooster/Documents/base_station/designer/impl1/controller_fp/controller.log
     </LogFile>
     <SerializationOption>
         Skip
     </SerializationOption>
     <programmer status="enable" type="FlashPro3" revision="UndefRev" connection="usb2.0">
         <name>
-            78388
+            78516
         </name>
         <id>
-            78388
+            78516
         </id>
     </programmer>
     <configuration>
@@ -59,7 +59,7 @@
         </Hardware>
         <Algo type="PDB">
             <filename>
-                N:\373\base_station-master\designer\impl1\controller_fp\controller.pdb
+                C:\Users\rwooster\Documents\base_station\designer\impl1\controller_fp\controller.pdb
             </filename>
             <local>
                 projectData\controller.pdb

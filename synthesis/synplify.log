@@ -1,7 +1,7 @@
 
 Starting:    C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\win64\mbin\synbatch.exe
 Install:     C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1
-Date:        Wed Dec 04 16:42:40 2013
+Date:        Sat Dec 07 13:34:48 2013
 Version:     G-2012.09M-SP1 
 
 Arguments:   -product synplify_pro  -licensetype synplifypro_actel -batch -log synplify.log controller_syn.tcl
@@ -16,7 +16,7 @@ Running in Vendor Mode
 
 
 
-log file: "N:\373\base_station-master\synthesis\controller.srr"
+log file: "C:\Users\rwooster\Documents\base_station\synthesis\controller.srr"
 
 
 Running controller_syn|synthesis
@@ -27,11 +27,13 @@ Running Compile Process on controller_syn|synthesis
 
 Running Compile Input on controller_syn|synthesis
 
-Copied N:\373\base_station-master\synthesis\synwork\controller_compiler.srs to N:\373\base_station-master\synthesis\controller.srs
+Copied C:\Users\rwooster\Documents\base_station\synthesis\synwork\controller_compiler.srs to C:\Users\rwooster\Documents\base_station\synthesis\controller.srs
+
+Copied C:\Users\rwooster\Documents\base_station\synthesis\synwork\controller_compiler.so to C:\Users\rwooster\Documents\base_station\synthesis\controller.so
 
 compiler Completed with warnings
 Return Code: 1
-Run Time:0h:00m:04s
+Run Time:0h:00m:02s
 
 
 Job Compile Process completed on controller_syn|synthesis
@@ -40,7 +42,7 @@ Running Premap on controller_syn|synthesis
 
 premap Completed with warnings
 Return Code: 1
-Run Time:0h:00m:02s
+Run Time:0h:00m:01s
 
 
 Job Compile completed on controller_syn|synthesis
@@ -51,7 +53,7 @@ Running Map & Optimize on controller_syn|synthesis
 
 fpga_mapper Completed with warnings
 Return Code: 1
-Run Time:0h:00m:06s
+Run Time:0h:00m:03s
 
 
 Job Map completed on controller_syn|synthesis

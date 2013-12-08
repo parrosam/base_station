@@ -9,15 +9,15 @@ Opened an existing Libero design controller.adb.
 'IDE_DESIGNERVIEW_COUNT' set to '1'
 'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
 'IDE_DESIGNERVIEW_REVNUM0' set to '1'
-'IDE_DESIGNERVIEW_ROOTDIR' set to 'N:\373\base_station-master\designer'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Users\rwooster\Documents\base_station\designer'
 'IDE_DESIGNERVIEW_LASTREV' set to '1'
 
  Netlist Reading Time = 0.0 seconds
 Imported the files:
-   N:\373\base_station-master\synthesis\controller.edn
-   N:\373\base_station-master\component\work\controller\controller.pdc
+   C:\Users\rwooster\Documents\base_station\synthesis\controller.edn
+   C:\Users\rwooster\Documents\base_station\component\work\controller\controller.pdc
 
-The Import command succeeded ( 00:00:04 )
+The Import command succeeded ( 00:00:08 )
 =====================================================================
 Parameters used to run compile:
 ===============================
@@ -25,8 +25,8 @@ Parameters used to run compile:
 Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
-Source      : N:\373\base_station-master\synthesis\controller.edn
-              N:\373\base_station-master\component\work\controller\controller.pdc
+Source      : C:\Users\rwooster\Documents\base_station\synthesis\controller.edn
+              C:\Users\rwooster\Documents\base_station\component\work\controller\controller.pdc
 Format      : EDIF
 Topcell     : controller
 Speed grade : -1
@@ -518,12 +518,12 @@ Nets that are candidates for clock assignment and the resulting fanout:
     16      INT_NET       Net   : read_0/buttonCount[3]
                           Driver: read_0/buttonCount[3]
 
-The Compile command succeeded ( 00:00:02 )
+The Compile command succeeded ( 00:00:04 )
 Wrote status report to file: controller_compile_report.txt
 
-The Report command succeeded ( 00:00:00 )
-Design saved to file N:\373\base_station-master\designer\impl1\controller.adb.
+The Report command succeeded ( 00:00:01 )
+Design saved to file C:\Users\rwooster\Documents\base_station\designer\impl1\controller.adb.
 
-The Execute Script command succeeded ( 00:00:09 )
+The Execute Script command succeeded ( 00:00:16 )
 Design closed.
 

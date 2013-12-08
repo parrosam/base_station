@@ -1,3 +1,3 @@
-project -load "N:/373/base_station-master/synthesis/controller_syn.prj"
+project -load "C:/Users/rwooster/Documents/base_station/synthesis/controller_syn.prj"
 project -run -clean
 project -save
