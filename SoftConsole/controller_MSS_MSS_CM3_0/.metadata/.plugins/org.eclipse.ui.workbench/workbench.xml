@@ -32,24 +32,39 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="3"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/rwooster/Documents/base_station/SoftConsole/controller_MSS_MSS_CM3_0/controller_MSS_MSS_CM3_0_app/main.c" title="main.c" tooltip="controller_MSS_MSS_CM3_0_app/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/controller_MSS_MSS_CM3_0_app/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="825" selectionTopPixel="306"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1658" selectionTopPixel="952"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="mss_uart.c" partName="mss_uart.c" path="C:/Users/rwooster/Documents/base_station/SoftConsole/controller_MSS_MSS_CM3_0/controller_MSS_MSS_CM3_0_hw_platform/drivers/mss_uart/mss_uart.c" title="mss_uart.c" tooltip="controller_MSS_MSS_CM3_0_hw_platform/drivers/mss_uart/mss_uart.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/controller_MSS_MSS_CM3_0_hw_platform/drivers/mss_uart/mss_uart.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7823" selectionTopPixel="3910"/>
+<editorState selectionHorizontalPixel="0" selectionLength="23" selectionOffset="20083" selectionTopPixel="10387"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="mss_uart.h" partName="mss_uart.h" path="C:/Users/rwooster/Documents/base_station/SoftConsole/controller_MSS_MSS_CM3_0/controller_MSS_MSS_CM3_0_hw_platform/drivers/mss_uart/mss_uart.h" title="mss_uart.h" tooltip="controller_MSS_MSS_CM3_0_hw_platform/drivers/mss_uart/mss_uart.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/controller_MSS_MSS_CM3_0_hw_platform/drivers/mss_uart/mss_uart.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="79" selectionOffset="29166" selectionTopPixel="10404"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="44540" selectionTopPixel="16490"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="core_uart_apb.h" partName="core_uart_apb.h" path="C:/Users/rwooster/Documents/base_station/SoftConsole/controller_MSS_MSS_CM3_0/controller_MSS_MSS_CM3_0_hw_platform/drivers/CoreUARTapb/core_uart_apb.h" title="core_uart_apb.h" tooltip="controller_MSS_MSS_CM3_0_hw_platform/drivers/CoreUARTapb/core_uart_apb.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/controller_MSS_MSS_CM3_0_hw_platform/drivers/CoreUARTapb/core_uart_apb.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="11966" selectionTopPixel="4063"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="display.h" partName="display.h" path="C:/Users/rwooster/Documents/base_station/SoftConsole/controller_MSS_MSS_CM3_0/controller_MSS_MSS_CM3_0_app/display.h" title="display.h" tooltip="controller_MSS_MSS_CM3_0_app/display.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/controller_MSS_MSS_CM3_0_app/display.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1414" selectionTopPixel="154"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="display.c" partName="display.c" path="C:/Users/rwooster/Documents/base_station/SoftConsole/controller_MSS_MSS_CM3_0/controller_MSS_MSS_CM3_0_app/display.c" title="display.c" tooltip="controller_MSS_MSS_CM3_0_app/display.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/controller_MSS_MSS_CM3_0_app/display.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="175" selectionTopPixel="800"/>
 </editor>
 </editors>
 <views>
@@ -99,7 +114,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (7 items)"/>
+<category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
@@ -114,7 +129,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.eclipse.debug.ui.DebugPerspective">
+<perspectives activePart="org.eclipse.debug.ui.DebugView" activePerspective="org.eclipse.debug.ui.DebugPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -339,158 +354,150 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/controller_MSS_MSS_CM3_0_app/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/controller_MSS_MSS_CM3_0_app/display.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/controller_MSS_MSS_CM3_0_app/display.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/controller_MSS_MSS_CM3_0_hw_platform/drivers/CoreUARTapb/core_uart_apb.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/controller_MSS_MSS_CM3_0_hw_platform/drivers/CoreUARTapb/core_uart_apb.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/controller_MSS_MSS_CM3_0_hw_platform/drivers/mss_uart/mss_uart.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/controller_MSS_MSS_CM3_0_hw_platform/drivers/mss_uart/mss_uart.h"/>
 </editors>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1738" y="0"/>
-</item>
-<item historyLabel="display.h" index="1">
-<position info="not_deleted" x="222" y="12"/>
-</item>
-<item historyLabel="display.c" index="2">
-<position info="not_deleted" x="175" y="12"/>
-</item>
-<item historyLabel="display.h" index="1">
-<position info="not_deleted" x="222" y="12"/>
-</item>
-<item historyLabel="display.c" index="2">
-<position info="not_deleted" x="175" y="12"/>
-</item>
-<item historyLabel="core_uart_apb.c" index="3">
-<position info="not_deleted" x="4040" y="9"/>
-</item>
-<item historyLabel="mss_uart.c" index="4">
-<position info="not_deleted" x="12644" y="15"/>
+<position info="not_deleted" x="2254" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1738" y="0"/>
+<position info="not_deleted" x="1658" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1301" y="0"/>
-</item>
-<item historyLabel="mss_uart.c" index="4">
-<position info="not_deleted" x="12644" y="15"/>
-</item>
-<item historyLabel="mss_uart.h" index="5">
-<position info="not_deleted" x="198" y="0"/>
-</item>
-<item historyLabel="display.h" index="1">
-<position info="not_deleted" x="222" y="12"/>
-</item>
-<item historyLabel="mss_uart.h" index="5">
-<position info="not_deleted" x="36821" y="214"/>
+<position info="not_deleted" x="1547" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="454" y="0"/>
-</item>
-<item historyLabel="mss_uart.c" index="4">
-<position info="not_deleted" x="12644" y="15"/>
-</item>
-<item historyLabel="mss_uart.h" index="5">
-<position info="not_deleted" x="37001" y="0"/>
+<position info="not_deleted" x="1574" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="621" y="0"/>
-</item>
-<item historyLabel="mss_uart.c" index="4">
-<position info="not_deleted" x="12644" y="15"/>
-</item>
-<item historyLabel="mss_uart.h" index="5">
-<position info="not_deleted" x="37001" y="0"/>
+<position info="not_deleted" x="853" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="563" y="0"/>
-</item>
-<item historyLabel="mss_uart.h" index="5">
-<position info="not_deleted" x="37001" y="0"/>
+<position info="not_deleted" x="1658" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="903" y="0"/>
-</item>
-<item historyLabel="mss_uart.c" index="4">
-<position info="not_deleted" x="12644" y="15"/>
-</item>
-<item historyLabel="mss_uart.h" index="5">
-<position info="not_deleted" x="14445" y="20"/>
+<position info="not_deleted" x="1305" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2210" y="1"/>
-</item>
-<item historyLabel="mss_uart.h" index="5">
-<position info="not_deleted" x="14445" y="20"/>
+<position info="not_deleted" x="685" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2225" y="0"/>
-</item>
-<item historyLabel="mss_uart.h" index="5">
-<position info="not_deleted" x="14445" y="20"/>
+<position info="not_deleted" x="766" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="825" y="0"/>
-</item>
-<item historyLabel="mss_uart.c" index="4">
-<position info="not_deleted" x="12644" y="15"/>
-</item>
-<item historyLabel="mss_uart.h" index="5">
-<position info="not_deleted" x="37658" y="0"/>
+<position info="not_deleted" x="791" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="825" y="0"/>
-</item>
-<item historyLabel="mss_uart.h" index="5">
-<position info="not_deleted" x="34768" y="0"/>
+<position info="not_deleted" x="823" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="190" y="0"/>
+<position info="not_deleted" x="855" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1371" y="0"/>
-</item>
-<item historyLabel="mss_uart.c" index="4">
-<position info="not_deleted" x="7823" y="0"/>
+<position info="not_deleted" x="887" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1274" y="0"/>
+<position info="not_deleted" x="923" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2370" y="0"/>
+<position info="not_deleted" x="917" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2210" y="53"/>
-</item>
-<item historyLabel="mss_uart.h" index="5">
-<position info="not_deleted" x="29569" y="0"/>
+<position info="not_deleted" x="954" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2348" y="0"/>
-</item>
-<item historyLabel="mss_uart.h" index="5">
-<position info="not_deleted" x="28815" y="0"/>
+<position info="not_deleted" x="985" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2222" y="0"/>
+<position info="not_deleted" x="1016" y="0"/>
 </item>
-<item historyLabel="mss_uart.h" index="5">
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1051" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="821" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1277" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1509" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1574" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1580" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="685" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1277" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1509" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1658" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1509" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1580" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1307" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="2003" y="23"/>
+</item>
+<item historyLabel="mss_uart.c" index="2">
+<position info="not_deleted" x="20083" y="23"/>
+</item>
+<item historyLabel="mss_uart.h" index="3">
 <position info="not_deleted" x="29166" y="79"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2061" y="0"/>
+<item historyLabel="mss_uart.h" index="3">
+<position info="not_deleted" x="10512" y="0"/>
+</item>
+<item historyLabel="core_uart_apb.h" index="1">
+<position info="not_deleted" x="11966" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2027" y="0"/>
+<position info="not_deleted" x="2078" y="24"/>
 </item>
-<item historyLabel="mss_uart.c" index="4">
-<position info="not_deleted" x="7823" y="0"/>
+<item historyLabel="mss_uart.h" index="3">
+<position info="not_deleted" x="14607" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="825" y="0"/>
+<position info="not_deleted" x="2107" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="2078" y="24"/>
+</item>
+<item historyLabel="mss_uart.h" index="3">
+<position info="not_deleted" x="14413" y="24"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="2078" y="24"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="2003" y="23"/>
+</item>
+<item historyLabel="mss_uart.c" index="2">
+<position info="not_deleted" x="20083" y="23"/>
+</item>
+<item historyLabel="mss_uart.h" index="3">
+<position info="not_deleted" x="44540" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="2096" y="0"/>
 </item>
 <item active="true" historyLabel="main.c" index="0">
-<position info="not_deleted" x="1239" y="0"/>
+<position info="not_deleted" x="1658" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -498,6 +505,9 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="topRight"/>
 </trimArea>
@@ -508,12 +518,13 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mss_uart.h" tooltip="controller_MSS_MSS_CM3_0_hw_platform/drivers/mss_uart/mss_uart.h">
-<persistable path="/controller_MSS_MSS_CM3_0_hw_platform/drivers/mss_uart/mss_uart.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="core_uart_apb.c" tooltip="controller_MSS_MSS_CM3_0_hw_platform/drivers/CoreUARTapb/core_uart_apb.c">
+<persistable path="/controller_MSS_MSS_CM3_0_hw_platform/drivers/CoreUARTapb/core_uart_apb.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="display.c" tooltip="controller_MSS_MSS_CM3_0_app/display.c">
 <persistable path="/controller_MSS_MSS_CM3_0_app/display.c"/>
