@@ -7284,3 +7284,806 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:/Users/rwooster/D
 
 !ENTRY org.eclipse.debug.core 4 125 2013-12-07 22:51:22.948
 !MESSAGE Inferior terminated
+!SESSION 2013-12-08 15:56:31.919 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:/Users/rwooster/Documents/base_station/SoftConsole/controller_MSS_MSS_CM3_0
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 15:57:38.801
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 15:57:38.817
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 15:57:38.817
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 15:57:38.817
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 15:57:38.832
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:02:22.127
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:02:22.127
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:02:22.127
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:02:22.127
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:02:22.128
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:04:18.577
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:04:18.577
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:04:18.579
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:04:18.581
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:04:18.583
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.cdt.debug.core 4 1000 2013-12-08 16:36:48.884
+!MESSAGE Internal error logged from CDI Debug: 
+!STACK 0
+org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: {R,T}xThread terminated[]
+	at org.eclipse.cdt.debug.mi.core.cdi.SourceManager.setSourcePaths(SourceManager.java:82)
+	at org.eclipse.cdt.debug.mi.core.cdi.model.Target.setSourcePaths(Target.java:1112)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.setSourceLookupPath(CDebugTarget.java:1819)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.initializeSourceLookupPath(CDebugTarget.java:383)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.initialize(CDebugTarget.java:282)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.<init>(CDebugTarget.java:275)
+	at org.eclipse.cdt.debug.core.CDIDebugModel$1.run(CDIDebugModel.java:100)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1782)
+	at org.eclipse.cdt.debug.core.CDIDebugModel.newDebugTarget(CDIDebugModel.java:105)
+	at org.eclipse.cdt.debug.core.CDIDebugModel.newDebugTarget(CDIDebugModel.java:172)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.createLaunchTarget(Launch.java:361)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:283)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.cdt.debug.core 4 1000 2013-12-08 16:36:48.884
+!MESSAGE Internal error logged from CDI Debug: 
+!STACK 0
+org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: {R,T}xThread terminated[]
+	at org.eclipse.cdt.debug.mi.core.cdi.RegisterManager.getRegisterDescriptors(RegisterManager.java:195)
+	at org.eclipse.cdt.debug.mi.core.cdi.RegisterManager.getRegisterDescriptors(RegisterManager.java:173)
+	at org.eclipse.cdt.debug.mi.core.cdi.model.RegisterGroup.getRegisterDescriptors(RegisterGroup.java:42)
+	at org.eclipse.cdt.debug.internal.core.CRegisterManager.initialize(CRegisterManager.java:127)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.initializeRegisters(CDebugTarget.java:356)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.initialize(CDebugTarget.java:287)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.<init>(CDebugTarget.java:275)
+	at org.eclipse.cdt.debug.core.CDIDebugModel$1.run(CDIDebugModel.java:100)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1782)
+	at org.eclipse.cdt.debug.core.CDIDebugModel.newDebugTarget(CDIDebugModel.java:105)
+	at org.eclipse.cdt.debug.core.CDIDebugModel.newDebugTarget(CDIDebugModel.java:172)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.createLaunchTarget(Launch.java:361)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:283)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:37:57.343
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:37:57.343
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:37:57.343
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:37:57.343
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:37:57.343
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:38:16.640
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:38:16.640
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:38:16.640
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:38:16.640
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:38:16.640
+!MESSAGE Inferior terminated
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:38.230
+!MESSAGE Failed command: target remote | "C:/Actel/Libero_v9.1/SoftConsole/Eclipse//../Sourcery-G++/bin/arm-none-eabi-sprite" flashpro:?cpu=Cortex-M3 "C:/Users/rwooster/Documents/base_station/SoftConsole/controller_MSS_MSS_CM3_0/controller_MSS_MSS_CM3_0_app/Debug"
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Remote communication error: No error.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:38.230
+!MESSAGE Remote communication error: No error.
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Remote communication error: No error.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:38.448
+!MESSAGE Failed command: set *0x40006010 = 0x4C6E55FA
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0x40006010
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:38.448
+!MESSAGE Cannot access memory at address 0x40006010
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0x40006010
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:38.557
+!MESSAGE Failed command: set *0xE0042000 = 0
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042000
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:38.557
+!MESSAGE Cannot access memory at address 0xe0042000
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042000
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:38.667
+!MESSAGE Failed command: set *0xE0042008 = 1
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042008
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:38.667
+!MESSAGE Cannot access memory at address 0xe0042008
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042008
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:38.776
+!MESSAGE Failed command: set *0xE0042040 = 0x00207FFD
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042040
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:38.776
+!MESSAGE Cannot access memory at address 0xe0042040
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042040
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:38.885
+!MESSAGE Failed command: set *0xE004203C = 0x00000001
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe004203c
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:38.885
+!MESSAGE Cannot access memory at address 0xe004203c
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe004203c
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:38.995
+!MESSAGE Failed command: set *0xE0042030 = *0xE0042030 & 0xFFFFFFF7
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042030
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:38.995
+!MESSAGE Cannot access memory at address 0xe0042030
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042030
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:39.104
+!MESSAGE Failed command: thb main
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No hardware breakpoint support in the target.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:39.104
+!MESSAGE No hardware breakpoint support in the target.
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No hardware breakpoint support in the target.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:39.214
+!MESSAGE Failed command: set *0xE000ED08 = 0x00000000
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe000ed08
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:39.214
+!MESSAGE Cannot access memory at address 0xe000ed08
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe000ed08
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:39.323
+!MESSAGE Failed command: load
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: You can't do that when your target is `exec'
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:39.323
+!MESSAGE You can't do that when your target is `exec'
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: You can't do that when your target is `exec'
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:39.432
+!MESSAGE Failed command: set $sp = *0x60080000
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No registers.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:39.432
+!MESSAGE No registers.
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No registers.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:39.541
+!MESSAGE Failed command: set $pc = *0x60080004 - 1
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No registers.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:39.541
+!MESSAGE No registers.
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No registers.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.cdt.debug.core 4 1000 2013-12-08 16:57:39.588
+!MESSAGE Internal error logged from CDI Debug: 
+!STACK 0
+org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: No registers.[No registers.]
+	at org.eclipse.cdt.debug.mi.core.cdi.RegisterManager.getRegisterDescriptors(RegisterManager.java:195)
+	at org.eclipse.cdt.debug.mi.core.cdi.RegisterManager.getRegisterDescriptors(RegisterManager.java:173)
+	at org.eclipse.cdt.debug.mi.core.cdi.model.RegisterGroup.getRegisterDescriptors(RegisterGroup.java:42)
+	at org.eclipse.cdt.debug.internal.core.CRegisterManager.initialize(CRegisterManager.java:127)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.initializeRegisters(CDebugTarget.java:356)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.initialize(CDebugTarget.java:287)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.<init>(CDebugTarget.java:275)
+	at org.eclipse.cdt.debug.core.CDIDebugModel$1.run(CDIDebugModel.java:100)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1782)
+	at org.eclipse.cdt.debug.core.CDIDebugModel.newDebugTarget(CDIDebugModel.java:105)
+	at org.eclipse.cdt.debug.core.CDIDebugModel.newDebugTarget(CDIDebugModel.java:172)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.createLaunchTarget(Launch.java:361)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:283)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:39.713
+!MESSAGE Failed command: cont
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: The program is not being run.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:292)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-08 16:57:39.713
+!MESSAGE The program is not being run.
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: The program is not being run.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:292)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:57:46.735
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:57:46.736
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:57:46.736
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:57:46.736
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:57:46.736
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:58:13.964
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:58:13.964
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:58:13.984
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:58:13.984
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 16:58:13.984
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:10:20.841
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:10:20.845
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:10:20.849
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:10:20.852
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:10:20.856
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:18:03.876
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:18:03.880
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:18:03.883
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:18:03.886
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:18:03.889
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:21:29.656
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:21:29.660
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:21:29.664
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:21:29.667
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:21:29.671
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:22:12.323
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:22:12.327
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:22:12.330
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:22:12.334
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:22:12.337
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:24:17.767
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:24:17.769
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:24:17.771
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:24:17.773
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 18:24:17.776
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 19:31:55.612
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 19:31:55.616
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 19:31:55.619
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 19:31:55.623
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 19:31:55.626
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 19:35:20.004
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 19:35:20.008
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 19:35:20.011
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 19:35:20.014
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 19:35:20.018
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 19:37:51.586
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 19:37:51.590
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 19:37:51.593
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 19:37:51.597
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 19:37:51.600
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:10:07.197
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:10:07.201
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:10:07.204
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:10:07.208
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:10:07.211
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:10:41.415
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:10:41.419
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:10:41.423
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:10:41.426
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:10:41.429
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:16:12.057
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:16:12.061
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:16:12.064
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:16:12.067
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:16:12.071
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:16:42.345
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:16:42.349
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:16:42.352
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:16:42.356
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:16:42.359
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:17:42.079
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:17:42.082
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:17:42.086
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:17:42.089
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:17:42.092
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:18:00.403
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:18:00.407
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:18:00.411
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:18:00.414
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:18:00.418
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:19:01.822
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:19:01.826
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:19:01.829
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:19:01.833
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:19:01.836
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:25:19.113
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:25:19.115
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:25:19.117
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:25:19.119
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:25:19.121
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:31:54.811
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:31:54.815
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:31:54.818
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:31:54.822
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:31:54.825
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:32:59.574
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:32:59.577
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:32:59.580
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:32:59.583
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-08 20:32:59.586
+!MESSAGE Inferior terminated
