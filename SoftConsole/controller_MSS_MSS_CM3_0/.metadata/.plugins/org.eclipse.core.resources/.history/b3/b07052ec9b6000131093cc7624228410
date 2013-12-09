@@ -132,7 +132,7 @@ int main() {
 		g_buttons = *controller;
 		//printButtons(buttons);
 
-		if (!(i%1000000)) {
+		if (!(i%100)) {
 			print_degrees(&core_uart_apb, (float)ANGLE);
 			i = 1;
 		}

@@ -25,7 +25,7 @@ union
 
 uint32_t g_buttons;
 
-int32_t ANGLE;
+int32_t recd_angle;
 
 // Interrupt driven rx handler, will read data only when it get a receive data available (RDA) interrupt
 void uart1_rx_handler( mss_uart_instance_t * this_uart )
@@ -52,9 +52,9 @@ void uart1_rx_handler( mss_uart_instance_t * this_uart )
 		g_ki.c[2] = g_rx_buff[10];
 		g_ki.c[1] = g_rx_buff[9];
 		g_ki.c[0] = g_rx_buff[8];
-
-		ANGLE = g_rx_buff[13];
-		ANGLE = g_rx_buff[12] | (ANGLE << 8);
+;
+		g_kd.c[1] = g_rx_buff[13];
+		g_kd.c[0] = g_rx_buff[12];
 
 //		angle = g_rx_buff[3];
 //		angle = ((angle << 8) | g_rx_buff[2]);
@@ -132,8 +132,8 @@ int main() {
 		g_buttons = *controller;
 		//printButtons(buttons);
 
-		if (!(i%1000000)) {
-			print_degrees(&core_uart_apb, (float)ANGLE);
+		if (!(i%100)) {
+			print_degrees(&core_uart_apb, g_angle.f);
 			i = 1;
 		}
 		i++;
