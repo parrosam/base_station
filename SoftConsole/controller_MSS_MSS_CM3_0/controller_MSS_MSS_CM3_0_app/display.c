@@ -52,41 +52,112 @@ void erase_circle(UART_instance_t * this_uart, uint8_t x, uint8_t y, uint8_t r)
 	UART_send( this_uart, (const uint8_t *)&tx_buff, sizeof(tx_buff) );
 }
 
-void print_degrees(UART_instance_t * this_uart, float deg)
+void erase_block(UART_instance_t * this_uart, uint8_t x1, uint8_t y1, uint8_t x2, uint8_t y2)
 {
-	clear_screen(this_uart);
+	uint8_t tx_buff[6] = {0x7C, 0x05, x1, y1, x2, y2};
+	UART_send( this_uart, (const uint8_t *)&tx_buff, sizeof(tx_buff) );
+}
 
-	//Convert float to nearest uint32_t
+void setup_screen(UART_instance_t * this_uart)
+{
+	set_x(this_uart, 128);
+	set_y(this_uart, 8);
+	delay();
+	uint8_t header_buff[] = {"+/-\0"};
+	UART_polled_tx_string( this_uart,(const uint8_t *)&header_buff);
+
+	set_x(this_uart, 8);
+	set_y(this_uart, 16);
+	delay();
+	uint8_t label_buff[] = {"Kp: \r\nKi: \r\nKd: \0"};
+	UART_polled_tx_string( this_uart,(const uint8_t *)&label_buff);
+}
+
+void print_degrees(UART_instance_t * this_uart, int deg)
+{
+	static uint8_t old_x_pixel = 0;
+	static uint8_t old_y_pixel = 0;
+
+	if (old_x_pixel > 80) {
+		erase_block(this_uart, 75, 127, old_x_pixel+5, old_y_pixel-5);
+	}
+	else if (old_x_pixel < 80) {
+		erase_block(this_uart, 85, 127, old_x_pixel-5, old_y_pixel-5);
+	}
+	else {
+		erase_block(this_uart, 75, 127, 85, old_y_pixel-10);
+	}
+
 	deg += 90.0;				//Convert to range 0 to 180 degrees
-	int deg_int = (deg >= 0) ? (int)(deg + 0.5) : (int)(deg - 0.5);
 
 	//Set location of degree printout
-	set_x(this_uart, 10);
-	set_y(this_uart, 10);
+	set_x(this_uart, 64);
+	set_y(this_uart, 64);
+	delay();
 
 	//Convert int to char array
 	char buffer[4];
-	sprintf(buffer, "%d", deg_int);
-
-	//Set first empty location (after the numerals) to be the degree symbol
-	int i;
-	for (i = 0; i < 4; i++)
-	{
-		if (buffer[i] == '\0')
-		{
-			buffer[i] = 248;	//ASCII degree symbol
-			break;
-		}
-	}
+	sprintf(buffer, "%03d", deg);
 
 	//Print degrees
 	UART_send( this_uart, (const uint8_t *)&buffer, sizeof(buffer) );
 
 	//Get locations of x and y pixels for head of the pendulum
-	double x_pixel = 80.0 - cos(deg * PI / 180.0) * 50.0;
-	double y_pixel = 127.0 - sin(deg * PI / 180.0) * 50.0;
+	uint8_t x_pixel = 80 - cos(deg * PI / 180) * 50;
+	uint8_t y_pixel = 127 - sin(deg * PI / 180) * 50;
 
 	//Draw pendulum
-	draw_line(this_uart, 80, 127, (uint8_t)x_pixel, (uint8_t)y_pixel);
-	draw_circle(this_uart, (uint8_t)x_pixel, (uint8_t)y_pixel, 5);
+	draw_line(this_uart, 80, 127, x_pixel, y_pixel);
+	draw_circle(this_uart, x_pixel, y_pixel, 5);
+
+	old_x_pixel = x_pixel;
+	old_y_pixel = y_pixel;
 }
+
+void update_screen(UART_instance_t * this_uart, int deg, float kp, float ki, float kd, float digit, k_value_t k_value)
+{
+	// Print the pendulum
+	print_degrees(this_uart, deg);
+
+	// Print the constants
+	set_x(this_uart, 32);
+	set_y(this_uart, 16);
+	delay();
+	char buffer[64];
+	sprintf(buffer, "%07.3f\r\n%07.3f\r\n%07.3f", kp, ki, kd);
+	UART_polled_tx_string( this_uart, (const uint8_t *)&buffer);
+
+	// Clear the digit block
+	erase_block(this_uart, 112, 16, 159, 56);
+
+	// Print the digit increment/decrement
+	set_x(this_uart, 112);
+	delay();
+	char digit_buffer[16];
+	sprintf(digit_buffer, "%07.3f", digit);
+	if (k_value == KP)
+	{
+		set_y(this_uart, 16);
+	} else if (k_value == KI) {
+		set_y(this_uart, 24);
+	} else {
+		set_y(this_uart, 32);
+	}
+	UART_polled_tx_string( this_uart, (const uint8_t *)&digit_buffer);
+}
+
+void delay( void)
+{
+	MSS_TIM2_load_immediate(10000000);
+	MSS_TIM2_start();
+
+	int timer_val = MSS_TIM2_get_current_value();
+
+	while ( timer_val != 0)
+	{
+		timer_val = MSS_TIM2_get_current_value();
+	}
+
+	return;
+}
+

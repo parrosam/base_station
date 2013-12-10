@@ -1,16 +1,16 @@
-C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\bin64\m_proasic.exe  -prodtype synplify_pro -encrypt  -pro  -rundir  C:\Users\rwooster\Documents\base_station\synthesis  -part A2F200M3F  -package FBGA484  -grade -1   -globalthreshold 50 -maxfan 24 -opcond COMWC     -report_path 0   -RWCheckOnRam 0     -summaryfile C:\Users\rwooster\Documents\base_station\synthesis\synlog\report\controller_fpga_mapper.xml -top_level_module  controller  -flow mapping  -mp 1 -prjfile  C:\Users\rwooster\Documents\base_station\synthesis\scratchproject.prs  -implementation synthesis -licensetype  synplifypro_actel  -oedif  C:\Users\rwooster\Documents\base_station\synthesis\controller.edn  -freq 100.000  -tcl  C:\Users\rwooster\Documents\base_station\component\work\controller_MSS\mss_tshell_syn.sdc  C:\Users\rwooster\Documents\base_station\synthesis\synwork\controller_premap.srd  -sap  C:\Users\rwooster\Documents\base_station\synthesis\controller.sap  -otap  C:\Users\rwooster\Documents\base_station\synthesis\controller.tap  -omap  C:\Users\rwooster\Documents\base_station\synthesis\controller.map  -devicelib  C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\proasic\smartfusion.v  -sap  C:\Users\rwooster\Documents\base_station\synthesis\controller.sap  -ologparam  C:\Users\rwooster\Documents\base_station\synthesis\syntmp\controller.plg  -osyn  C:\Users\rwooster\Documents\base_station\synthesis\controller.srm  -prjdir  C:\Users\rwooster\Documents\base_station\synthesis\  -prjname  controller_syn  -log  C:\Users\rwooster\Documents\base_station\synthesis\synlog\controller_fpga_mapper.srr 
+C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\bin64\m_proasic.exe  -prodtype synplify_pro -encrypt  -pro  -rundir  N:\EECS_373\Project\new_base_station\synthesis  -part A2F200M3F  -package FBGA484  -grade -1   -globalthreshold 50 -maxfan 24 -opcond COMWC     -report_path 0   -RWCheckOnRam 0     -summaryfile N:\EECS_373\Project\new_base_station\synthesis\synlog\report\controller_fpga_mapper.xml -top_level_module  controller  -flow mapping  -mp 1 -prjfile  N:\EECS_373\Project\new_base_station\synthesis\scratchproject.prs  -implementation synthesis -licensetype  synplifypro_actel  -oedif  N:\EECS_373\Project\new_base_station\synthesis\controller.edn  -freq 100.000  -tcl  N:\EECS_373\Project\new_base_station\component\work\controller_MSS\mss_tshell_syn.sdc  N:\EECS_373\Project\new_base_station\synthesis\synwork\controller_premap.srd  -sap  N:\EECS_373\Project\new_base_station\synthesis\controller.sap  -otap  N:\EECS_373\Project\new_base_station\synthesis\controller.tap  -omap  N:\EECS_373\Project\new_base_station\synthesis\controller.map  -devicelib  C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\proasic\smartfusion.v  -sap  N:\EECS_373\Project\new_base_station\synthesis\controller.sap  -ologparam  N:\EECS_373\Project\new_base_station\synthesis\syntmp\controller.plg  -osyn  N:\EECS_373\Project\new_base_station\synthesis\controller.srm  -prjdir  N:\EECS_373\Project\new_base_station\synthesis\  -prjname  controller_syn  -log  N:\EECS_373\Project\new_base_station\synthesis\synlog\controller_fpga_mapper.srr 
 rc:1 success:1
-C:\Users\rwooster\Documents\base_station\synthesis\scratchproject.prs|o|1386441288|3666
-C:\Users\rwooster\Documents\base_station\synthesis\controller.edn|o|1386441293|601289
-C:\Users\rwooster\Documents\base_station\component\work\controller_MSS\mss_tshell_syn.sdc|i|1386440642|200
-C:\Users\rwooster\Documents\base_station\synthesis\synwork\controller_premap.srd|i|1386441291|70292
-C:\Users\rwooster\Documents\base_station\synthesis\controller.sap|o|1386441291|12303
-C:\Users\rwooster\Documents\base_station\synthesis\controller.tap|o|0|0
-C:\Users\rwooster\Documents\base_station\synthesis\controller.map|o|1386441293|28
+N:\EECS_373\Project\new_base_station\synthesis\scratchproject.prs|o|1386628494|3586
+N:\EECS_373\Project\new_base_station\synthesis\controller.edn|o|1386628503|601288
+N:\EECS_373\Project\new_base_station\component\work\controller_MSS\mss_tshell_syn.sdc|i|1386628385|200
+N:\EECS_373\Project\new_base_station\synthesis\synwork\controller_premap.srd|i|1386628499|70290
+N:\EECS_373\Project\new_base_station\synthesis\controller.sap|o|1386628499|12303
+N:\EECS_373\Project\new_base_station\synthesis\controller.tap|o|0|0
+N:\EECS_373\Project\new_base_station\synthesis\controller.map|o|1386628504|28
 C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\proasic\smartfusion.v|i|1360942192|72817
-C:\Users\rwooster\Documents\base_station\synthesis\controller.sap|o|1386441291|12303
-C:\Users\rwooster\Documents\base_station\synthesis\syntmp\controller.plg|o|1386441293|1812
-C:\Users\rwooster\Documents\base_station\synthesis\controller.srm|o|1386441293|176991
-C:\Users\rwooster\Documents\base_station\synthesis\synlog\controller_fpga_mapper.srr|o|1386441293|45647
+N:\EECS_373\Project\new_base_station\synthesis\controller.sap|o|1386628499|12303
+N:\EECS_373\Project\new_base_station\synthesis\syntmp\controller.plg|o|1386628504|1812
+N:\EECS_373\Project\new_base_station\synthesis\controller.srm|o|1386628503|176984
+N:\EECS_373\Project\new_base_station\synthesis\synlog\controller_fpga_mapper.srr|o|1386628504|45587
 C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\bin64\m_proasic.exe|i|1360942034|13812224
 C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\bin\m_proasic.exe|i|1360942022|11409920

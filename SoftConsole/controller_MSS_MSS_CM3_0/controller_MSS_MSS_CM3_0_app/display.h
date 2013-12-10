@@ -10,6 +10,10 @@
 
 #include <inttypes.h>
 #include "drivers/CoreUARTapb/core_uart_apb.h"
+#include "drivers/mss_timer/mss_timer.h"
+
+typedef enum {KP, KI, KD} k_value_t;
+
 /*
  * Clear the screen
  */
@@ -46,9 +50,28 @@ void draw_circle(UART_instance_t * this_uart, uint8_t x, uint8_t y, uint8_t r);
 void erase_circle(UART_instance_t * this_uart, uint8_t x, uint8_t y, uint8_t r);
 
 /*
+ * Erase the block contained within the opposite corners
+ */
+void erase_block(UART_instance_t * this_uart, uint8_t x1, uint8_t y1, uint8_t x2, uint8_t y2);
+
+/*
+ * Set up main components of screen: angle, kp, ki, and kd
+ */
+void setup_screen(UART_instance_t * this_uart);
+
+/*
  * Displays a pendulum tilted at deg degrees, and displays deg as an integer
  * Assumes input goes from -90 to 90 degrees, with 0 as balance
  */
-void print_degrees(UART_instance_t * this_uart, float deg);
+void print_degrees(UART_instance_t * this_uart, int deg);
+
+/*
+ * Updates the pendulum and degrees, as well as the constants kp, ki, and kd
+ */
+void update_screen(UART_instance_t * this_uart, int deg, float kp, float ki, float kd, float digit, k_value_t k_value);
+
+//10 ms delay
+void delay( void);
+
 
 #endif /* DISPLAY_H_ */

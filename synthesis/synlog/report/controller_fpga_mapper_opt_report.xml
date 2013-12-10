@@ -7,7 +7,7 @@ The file contains the optimization information from mapper to be displayed as pa
 <parameter tooltip="Non-gated/non-generated clock trees / Gated/generated clock trees" name="Combined Clock Conversion">
 <data>1 / 0</data>
 <report_link name="more">
-<data>C:\Users\rwooster\Documents\base_station\synthesis\synlog\report\controller_fpga_mapper_combined_clk.rpt</data>
+<data>N:\EECS_373\Project\new_base_station\synthesis\synlog\report\controller_fpga_mapper_combined_clk.rpt</data>
 </report_link>
 </parameter>
 </report_table>

@@ -15,6 +15,7 @@
 #define RX_BUFF_SIZE 14
 
 uint8_t g_rx_buff[RX_BUFF_SIZE];
+UART_instance_t g_core_uart_apb;
 
 // Union allows us to receive 4 bytes of a float and reconstruct it
 union
@@ -25,7 +26,10 @@ union
 
 uint32_t g_buttons;
 
-int32_t ANGLE;
+int32_t ANGLE = 0;
+float g_digit = 1;
+
+k_value_t g_k_value;
 
 // Interrupt driven rx handler, will read data only when it get a receive data available (RDA) interrupt
 void uart1_rx_handler( mss_uart_instance_t * this_uart )
@@ -84,21 +88,34 @@ void Timer1_IRQHandler( void )
 	{
 		;
 	}
+
+	static int i = 0;
+	if (i == 5) {
+		update_screen(&g_core_uart_apb, (int)ANGLE, g_kp.f, g_ki.f, g_kd.f, g_digit, g_k_value);
+
+		if (ANGLE > 90)
+			ANGLE = -90;
+
+
+		i = 0;
+	}
+	i++;
 	MSS_TIM1_clear_irq();
 }
 
+
 int main() {
 	// For lcd screen
-	UART_instance_t core_uart_apb;
 
 	UART_init
 	(
-		&core_uart_apb,
+		&g_core_uart_apb,
 		CORE_UART_APB_ADDR,
 		BAUD_VALUE_115200,
 		DATA_8_BITS | NO_PARITY
 	);
-	clear_screen(&core_uart_apb);
+	clear_screen(&g_core_uart_apb);
+	setup_screen(&g_core_uart_apb);
 
 	// For XBee
 	MSS_UART_init
@@ -121,22 +138,53 @@ int main() {
 	MSS_TIM1_load_background(10000000);
 	MSS_TIM1_start();
 
+	MSS_TIM2_init( MSS_TIMER_ONE_SHOT_MODE);
+
 
 	//volatile int i = 0;
 	//float x = -90; // For lcd display test code, can get rid of this later
 
 	int i = 1;
 	volatile uint32_t * controller = (uint32_t *) CONTROLLER_ADDR;
+	uint32_t oldbuttons;
 
 	while( 1 ) {
 		g_buttons = *controller;
 		//printButtons(buttons);
 
-		if (!(i%1000000)) {
-			print_degrees(&core_uart_apb, (float)ANGLE);
-			i = 1;
+		///interpret buttons for changing k values on screen
+		if (getStart(g_buttons)==1 && getStart(oldbuttons)==0)
+		{
+			g_digit = 1;
 		}
-		i++;
+
+		// Set which digit to modify
+		if (getDRIGHT(g_buttons)==1 && getDRIGHT(oldbuttons)==0)
+		{
+			g_digit /= 10;
+		}
+		else if (getDLEFT(g_buttons)==1 && getDLEFT(oldbuttons)==0)
+		{
+			if (g_digit < 100)
+				g_digit *= 10;
+		}
+
+		// Choose parameter
+		if (getX(g_buttons)==1 && getX(oldbuttons) == 0)
+		{
+			g_k_value = KP;
+		}
+		if (getY(g_buttons)==1 && getY(oldbuttons) == 0)
+		{
+			g_k_value = KI;
+		}
+		else if (getZ(g_buttons)==1 && getZ(oldbuttons) == 0)
+		{
+			g_k_value = KD;
+		}
+
+		oldbuttons = g_buttons;
+
 	}
 
 	return 0;

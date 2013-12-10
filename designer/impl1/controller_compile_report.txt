@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Sat Dec 07 13:35:11 2013 ***************************************************************************
+                          Mon Dec 09 17:35:17 2013 ***************************************************************************
 
 Product: Designer
 Release: v11.0
 Version: 11.0.0.23
-File Name: C:\Users\rwooster\Documents\base_station\designer\impl1\controller.adb
+File Name: N:\EECS_373\Project\new_base_station\designer\impl1\controller.adb
 Design Name: controller  Design State: compile
-Last Saved: Sat Dec 07 13:24:02 2013
+Last Saved: Mon Dec 09 17:33:05 2013
 
 ***** Device Data **************************************************
 
@@ -22,9 +22,9 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Sat Dec 07 13:34:58 2013:
-        C:\Users\rwooster\Documents\base_station\synthesis\controller.edn
-        C:\Users\rwooster\Documents\base_station\component\work\controller\controller.pdc
+Source File(s) Imported on Mon Dec 09 17:35:11 2013:
+        N:\EECS_373\Project\new_base_station\synthesis\controller.edn
+        N:\EECS_373\Project\new_base_station\component\work\controller\controller.pdc
 
 
 ***** CAE Variables ************************************************
@@ -50,8 +50,8 @@ Parameters used to run compile:
 Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
-Source      : C:\Users\rwooster\Documents\base_station\synthesis\controller.edn
-              C:\Users\rwooster\Documents\base_station\component\work\controller\controller.pdc
+Source      : N:\EECS_373\Project\new_base_station\synthesis\controller.edn
+              N:\EECS_373\Project\new_base_station\component\work\controller\controller.pdc
 Format      : EDIF
 Topcell     : controller
 Speed grade : -1

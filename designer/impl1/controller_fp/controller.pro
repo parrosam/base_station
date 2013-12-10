@@ -1,12 +1,12 @@
 <project name="controller" version="1.1">
     <ProjectDirectory>
-        C:/Users/rwooster/Documents/base_station/designer/impl1/controller_fp
+        N:/EECS_373/Project/new_base_station/designer/impl1/controller_fp
     </ProjectDirectory>
     <View>
         SingleSTAPLView
     </View>
     <LogFile>
-        C:/Users/rwooster/Documents/base_station/designer/impl1/controller_fp/controller.log
+        N:/EECS_373/Project/new_base_station/designer/impl1/controller_fp/controller.log
     </LogFile>
     <SerializationOption>
         Skip
@@ -59,7 +59,7 @@
         </Hardware>
         <Algo type="PDB">
             <filename>
-                C:\Users\rwooster\Documents\base_station\designer\impl1\controller_fp\controller.pdb
+                N:\EECS_373\Project\new_base_station\designer\impl1\controller_fp\controller.pdb
             </filename>
             <local>
                 projectData\controller.pdb

@@ -20,10 +20,10 @@ KEY IDE_DES_BLOCK_PUBLISH "FALSE"
 KEY IDE_DES_BA_EXPORTED "FALSE"
 KEY IDE_DES_INTERACTIVE "FALSE"
 KEY IDE_DES_ERROR_FOUND "FALSE"
-KEY IDE_DES_ADB_PATH "C:\Users\rwooster\Documents\base_station\designer\impl1\controller.adb"
+KEY IDE_DES_ADB_PATH "N:\EECS_373\Project\new_base_station\designer\impl1\controller.adb"
 LIST SOURCE_FILES
-VALUE "C:\Users\rwooster\Documents\base_station\synthesis\controller.edn;edn"
-VALUE "C:\Users\rwooster\Documents\base_station\component\work\controller\controller.pdc;pdc"
+VALUE "N:\EECS_373\Project\new_base_station\synthesis\controller.edn;edn"
+VALUE "N:\EECS_373\Project\new_base_station\component\work\controller\controller.pdc;pdc"
 ENDLIST
 LIST OPTIONAL_FILES
 ENDLIST

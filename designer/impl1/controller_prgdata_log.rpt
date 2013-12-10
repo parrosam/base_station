@@ -2,18 +2,18 @@ Actel Designer Software
 Version: 11.0.0.23
 Release: v11.0
 
-Info: The design C:/Users/rwooster/Documents/base_station/designer/impl1/controller.adb was last
+Info: The design N:/EECS_373/Project/new_base_station/designer/impl1/controller.adb was last
       modified by software version 11.0.0.23.
 Opened an existing Libero design
-C:/Users/rwooster/Documents/base_station/designer/impl1/controller.adb.
+N:/EECS_373/Project/new_base_station/designer/impl1/controller.adb.
 
-The Export-map command succeeded ( 00:00:10 )
+The Export-map command succeeded ( 00:00:13 )
 CHECKSUM: 1B65
-Wrote to the file: C:\Users\rwooster\Documents\base_station\designer\impl1\controller.fdb
+Wrote to the file: N:\EECS_373\Project\new_base_station\designer\impl1\controller.fdb
 
-The Export command succeeded ( 00:00:13 )
-Design saved to file C:/Users/rwooster/Documents/base_station/designer/impl1/controller.adb.
+The Export command succeeded ( 00:00:15 )
+Design saved to file N:/EECS_373/Project/new_base_station/designer/impl1/controller.adb.
 
-The Execute Script command succeeded ( 00:00:14 )
+The Execute Script command succeeded ( 00:00:19 )
 Design closed.
 

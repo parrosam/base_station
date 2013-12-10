@@ -3,23 +3,23 @@ Version: 11.0.0.23
 Release: v11.0
 
 Software Version: 11.0.0.23
-PDB file 'C:\Users\rwooster\Documents\base_station\designer\impl1\controller_fp\controller.pdb'
-has been loaded successfully.
+PDB file 'N:\EECS_373\Project\new_base_station\designer\impl1\controller_fp\controller.pdb' has
+been loaded successfully.
 DESIGN : controller;  CHECKSUM : 1B65;  PDB_VERSION : 1.8
 Driver : 3.0.0 build 1
 programmer '78516' : FlashPro3
-Opened 'C:/Users/rwooster/Documents/base_station/designer/impl1/controller_fp/controller.pro'
+Opened 'N:/EECS_373/Project/new_base_station/designer/impl1/controller_fp/controller.pro'
 The 'open_project' command succeeded.
 The 'set_programming_file' command succeeded.
 The 'set_device_type' command succeeded.
 The 'set_device_package' command succeeded.
 Info: Adding Flash Memory data from file
-      C:\Users\rwooster\Documents\base_station\component\work\controller_MSS\MSS_ENVM_0\MSS_ENV\
-      M_0.efc.
+      N:\EECS_373\Project\new_base_station\component\work\controller_MSS\MSS_ENVM_0\MSS_ENVM_0.\
+      efc.
 Info: Adding FPGA Array data from file
-      C:\Users\rwooster\Documents\base_station\designer\impl1\controller.fdb.
-PDB file 'C:\Users\rwooster\Documents\base_station\designer\impl1\controller_fp\controller.pdb'
-has been loaded successfully.
+      N:\EECS_373\Project\new_base_station\designer\impl1\controller.fdb.
+PDB file 'N:\EECS_373\Project\new_base_station\designer\impl1\controller_fp\controller.pdb' has
+been loaded successfully.
 DESIGN : controller;  CHECKSUM : 1B65;  PDB_VERSION : 1.8
 The 'update_programming_file' command succeeded.
 The 'set_programming_action' command succeeded.
@@ -37,7 +37,7 @@ programmer '78516' : Verifying FPGA Array
 programmer '78516' :         Verifying FPGA Array -- pass
 programmer '78516' : Program System Init and Boot Clients...
 programmer '78516' : Verify System Init and Boot Clients...
-programmer '78516' : Finished: Sat Dec 07 18:32:06 2013 (Elapsed time 00:00:39)
+programmer '78516' : Finished: Mon Dec 09 17:37:41 2013 (Elapsed time 00:00:39)
 programmer '78516' : Executing action PROGRAM PASSED.
 
                         o - o - o - o - o - o

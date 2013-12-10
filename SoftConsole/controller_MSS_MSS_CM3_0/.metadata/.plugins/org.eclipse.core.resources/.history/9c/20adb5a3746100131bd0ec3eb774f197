@@ -1,0 +1,176 @@
+/*
+ * display.c
+ *
+ *  Created on: Nov 26, 2013
+ *      Author: fstan
+ */
+
+#include "display.h"
+#include <stdio.h>
+#include <math.h>
+
+#define PI 3.14159265
+
+void clear_screen(UART_instance_t * this_uart)
+{
+	uint8_t tx_buff[2] = {0x7C, 0x00};
+	UART_send( this_uart, (const uint8_t *)&tx_buff, sizeof(tx_buff) );
+}
+
+void set_x(UART_instance_t * this_uart, uint8_t x)
+{
+	uint8_t tx_buff[3] = {0x7C, 0x18, x};
+	UART_send( this_uart, (const uint8_t *)&tx_buff, sizeof(tx_buff) );
+}
+
+void set_y(UART_instance_t * this_uart, uint8_t y){
+	uint8_t tx_buff[3] = {0x7C, 0x19, y};
+	UART_send( this_uart, (const uint8_t *)&tx_buff, sizeof(tx_buff) );
+}
+
+void draw_line(UART_instance_t * this_uart, uint8_t x1, uint8_t y1, uint8_t x2, uint8_t y2)
+{
+	uint8_t tx_buff[7] = {0x7C, 0x0C, x1, y1, x2, y2, 0x01};
+	UART_send( this_uart, (const uint8_t *)&tx_buff, sizeof(tx_buff) );
+}
+
+void erase_line(UART_instance_t * this_uart, uint8_t x1, uint8_t y1, uint8_t x2, uint8_t y2)
+{
+	uint8_t tx_buff[7] = {0x7C, 0x0C, x1, y1, x2, y2, 0x00};
+	UART_send( this_uart, (const uint8_t *)&tx_buff, sizeof(tx_buff) );
+}
+
+void draw_circle(UART_instance_t * this_uart, uint8_t x, uint8_t y, uint8_t r)
+{
+	uint8_t tx_buff[6] = {0x7C, 0x03, x, y, r, 0x01};
+	UART_send( this_uart, (const uint8_t *)&tx_buff, sizeof(tx_buff) );
+}
+
+void erase_circle(UART_instance_t * this_uart, uint8_t x, uint8_t y, uint8_t r)
+{
+	uint8_t tx_buff[6] = {0x7C, 0x03, x, y, r, 0x00};
+	UART_send( this_uart, (const uint8_t *)&tx_buff, sizeof(tx_buff) );
+}
+
+void erase_block(UART_instance_t * this_uart, uint8_t x1, uint8_t y1, uint8_t x2, uint8_t y2)
+{
+	uint8_t tx_buff[6] = {0x7C, 0x05, x1, y1, x2, y2};
+	UART_send( this_uart, (const uint8_t *)&tx_buff, sizeof(tx_buff) );
+}
+
+void setup_screen(UART_instance_t * this_uart)
+{
+	set_x(this_uart, 128);
+	set_y(this_uart, 8);
+	delay();
+	uint8_t header_buff[] = {"+/-"};
+	UART_polled_tx_string( this_uart,(const uint8_t *)&header_buff);
+
+	set_x(this_uart, 8);
+	set_y(this_uart, 16);
+	delay();
+	uint8_t label_buff[] = {"Kp: \r\nKi: \r\nKd: \0"};
+	UART_polled_tx_string( this_uart,(const uint8_t *)&label_buff);
+}
+
+void print_degrees(UART_instance_t * this_uart, int deg)
+{
+	static uint8_t old_x_pixel = 0;
+	static uint8_t old_y_pixel = 0;
+
+	deg += 90.0;				//Convert to range 0 to 180 degrees
+//	if (deg > 90) {
+//		erase_block(this_uart, 80, 127, old_x_pixel+10, old_y_pixel-10);
+//	}
+//	else if (deg < 90) {
+//		erase_block(this_uart, 80, 127, old_x_pixel-10, old_y_pixel-10);
+//	}
+//	else {
+//		erase_block(this_uart, 70, 127, 90, old_y_pixel-10);
+//	}
+	erase_block(this_uart, 32. 64, 128, 127)
+
+	//Set location of degree printout
+	set_x(this_uart, 64);
+	set_y(this_uart, 64);
+	delay();
+
+	//Convert int to char array
+	char buffer[4];
+	sprintf(buffer, "%03d", deg);
+
+	//Print degrees
+	UART_send( this_uart, (const uint8_t *)&buffer, sizeof(buffer) );
+
+	//Get locations of x and y pixels for head of the pendulum
+	uint8_t x_pixel = 80 - cos(deg * PI / 180) * 50;
+	uint8_t y_pixel = 127 - sin(deg * PI / 180) * 50;
+
+	//Draw pendulum
+	draw_line(this_uart, 80, 127, x_pixel, y_pixel);
+	draw_circle(this_uart, x_pixel, y_pixel, 5);
+
+	old_x_pixel = x_pixel;
+	old_y_pixel = y_pixel;
+}
+
+void delay( void)
+{
+	MSS_TIM2_load_immediate(10000000);
+	MSS_TIM2_start();
+
+	int timer_val = MSS_TIM2_get_current_value();
+
+	while ( timer_val != 0)
+	{
+		timer_val = MSS_TIM2_get_current_value();
+	}
+
+	return;
+}
+
+void update_screen(UART_instance_t * this_uart, int deg, float kp, float ki, float kd, float digit, k_value_t k_value)
+{
+	print_degrees(this_uart, deg);
+
+	set_x(this_uart, 32);
+	set_y(this_uart, 16);
+	delay();
+	char buffer[64];
+	sprintf(buffer, "%07.4f\r\n%07.4f\r\n%07.4f", kp, ki, kd);
+	UART_polled_tx_string( this_uart, (const uint8_t *)&buffer);
+
+
+	char digit_buffer[10];
+	sprintf(digit_buffer, "%07.3f", digit);
+	if (k_value == KP)
+	{
+		set_y(this_uart, 16);
+	} else if (k_value == KI) {
+		set_y(this_uart, 24);
+	} else {
+		set_y(this_uart, 32);
+	}
+	set_x(this_uart, 120);
+	delay();
+	UART_polled_tx_string( this_uart, (const uint8_t *)&digit_buffer);
+
+
+//	char buffer_kp[10];
+//	sprintf(buffer_kp, "%f", 1.2);
+//	UART_polled_tx_string( this_uart, (const uint8_t *)&buffer_kp);
+//	delay();
+//
+//	set_x(this_uart, 40);
+//	set_y(this_uart, 16);
+//	char buffer_ki[10];
+//	sprintf(buffer_ki, "%f", 5.123);
+//	UART_polled_tx_string( this_uart, (const uint8_t *)&buffer_ki);
+//
+//	set_x(this_uart, 40);
+//	set_y(this_uart, 24);
+//	char buffer_kd[10];
+//	sprintf(buffer_kd, "%f", 3.456);
+//	UART_polled_tx_string( this_uart, (const uint8_t *)&buffer_kd);
+
+}

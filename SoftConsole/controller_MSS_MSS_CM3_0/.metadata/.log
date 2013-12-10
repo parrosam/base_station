@@ -8168,3 +8168,2757 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:/Users/rwooster/D
 
 !ENTRY org.eclipse.debug.core 4 125 2013-12-09 01:48:02.646
 !MESSAGE Inferior terminated
+!SESSION 2013-12-09 17:38:12.496 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data N:/EECS_373/Project/new_base_station/SoftConsole/controller_MSS_MSS_CM3_0
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:47:30.744
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:47:30.750
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:47:30.753
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:47:30.755
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:47:30.758
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 2 2013-12-09 17:47:30.915
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.views.memory.AbstractMemoryViewPane.handleDebugEvents(AbstractMemoryViewPane.java:286)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1081)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1115)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:382)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:47:30.923
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.views.memory.AbstractMemoryViewPane.handleDebugEvents(AbstractMemoryViewPane.java:286)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1081)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1115)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:382)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.core 4 2 2013-12-09 17:47:30.933
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.views.memory.AbstractMemoryViewPane.handleDebugEvents(AbstractMemoryViewPane.java:286)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1081)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1115)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:382)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:47:30.941
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.views.memory.AbstractMemoryViewPane.handleDebugEvents(AbstractMemoryViewPane.java:286)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1081)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1115)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:382)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:48:28.758
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:48:28.762
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:48:28.765
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:48:28.768
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:48:28.771
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:49:34.802
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:49:34.807
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:49:34.811
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:49:34.816
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:49:34.820
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:49:58.389
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:49:58.393
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:49:58.398
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:49:58.404
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:49:58.408
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:52:42.678
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:52:42.682
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:52:42.687
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:52:42.692
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:52:42.696
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:53:08.302
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:53:08.307
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:53:08.311
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:53:08.315
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:53:08.320
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:56:55.050
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:56:55.055
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:56:55.059
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:56:55.065
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:56:55.070
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:57:09.075
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:57:09.078
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:57:09.080
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:57:09.083
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:57:09.086
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:58:33.404
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:58:33.409
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:58:33.413
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:58:33.418
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:58:33.423
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:59:22.535
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:59:22.539
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:59:22.543
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:59:22.547
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 17:59:22.551
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:00:31.457
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:00:31.461
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:00:31.467
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:00:31.471
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:00:31.475
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:00:50.891
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:00:50.900
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:00:50.908
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:00:50.915
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:00:50.926
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:02:16.158
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:02:16.167
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:02:16.178
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:02:16.189
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:02:16.200
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:03:11.694
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:03:11.699
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:03:11.703
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:03:11.707
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:03:11.718
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:06:21.545
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:06:21.563
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:06:21.579
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:06:21.595
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:06:21.617
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:10:24.257
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:10:24.262
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:10:24.266
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:10:24.270
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:10:24.274
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:10:39.469
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:10:39.475
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:10:39.483
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:10:39.494
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:10:39.507
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:11:01.508
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:11:01.517
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:11:01.525
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:11:01.533
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:11:01.539
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:12:50.280
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:12:50.284
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:12:50.291
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:12:50.295
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:12:50.301
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:18:54.662
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:18:54.667
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:18:54.671
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:18:54.675
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:18:54.680
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:23:45.480
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:23:45.485
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:23:45.488
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:23:45.492
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:23:45.496
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:24:08.289
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:24:08.294
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:24:08.299
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:24:08.304
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:24:08.309
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:24:54.277
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:24:54.285
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:24:54.290
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:24:54.298
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:24:54.310
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:30:03.779
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:30:03.783
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:30:03.788
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:30:03.792
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:30:03.796
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:40:58.801
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:40:58.804
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:40:58.807
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:40:58.811
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:40:58.815
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:43:38.529
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:43:38.533
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:43:38.537
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:43:38.541
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:43:38.545
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:49:35.167
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:49:35.170
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:49:35.173
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:49:35.177
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:49:35.181
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:50:05.732
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:50:05.736
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:50:05.740
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:50:05.744
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:50:05.747
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:52:24.449
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:52:24.452
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:52:24.456
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:52:24.460
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 18:52:24.463
+!MESSAGE Inferior terminated
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.021
+!MESSAGE Failed command: target remote | "C:/Actel/Libero_v9.1/SoftConsole/Eclipse//../Sourcery-G++/bin/arm-none-eabi-sprite" flashpro:?cpu=Cortex-M3 "N:/EECS_373/Project/new_base_station/SoftConsole/controller_MSS_MSS_CM3_0/controller_MSS_MSS_CM3_0_app/Debug"
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Remote communication error: No error.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.021
+!MESSAGE Remote communication error: No error.
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Remote communication error: No error.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.233
+!MESSAGE Failed command: set *0x40006010 = 0x4C6E55FA
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0x40006010
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.233
+!MESSAGE Cannot access memory at address 0x40006010
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0x40006010
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.339
+!MESSAGE Failed command: set *0xE0042000 = 0
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042000
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.340
+!MESSAGE Cannot access memory at address 0xe0042000
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042000
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.446
+!MESSAGE Failed command: set *0xE0042008 = 1
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042008
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.446
+!MESSAGE Cannot access memory at address 0xe0042008
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042008
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.553
+!MESSAGE Failed command: set *0xE0042040 = 0x00207FFD
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042040
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.553
+!MESSAGE Cannot access memory at address 0xe0042040
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042040
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.663
+!MESSAGE Failed command: set *0xE004203C = 0x00000001
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe004203c
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.663
+!MESSAGE Cannot access memory at address 0xe004203c
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe004203c
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.770
+!MESSAGE Failed command: set *0xE0042030 = *0xE0042030 & 0xFFFFFFF7
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042030
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.770
+!MESSAGE Cannot access memory at address 0xe0042030
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042030
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.874
+!MESSAGE Failed command: thb main
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No hardware breakpoint support in the target.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.874
+!MESSAGE No hardware breakpoint support in the target.
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No hardware breakpoint support in the target.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.982
+!MESSAGE Failed command: set *0xE000ED08 = 0x00000000
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe000ed08
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:03.982
+!MESSAGE Cannot access memory at address 0xe000ed08
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe000ed08
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:04.089
+!MESSAGE Failed command: load
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: You can't do that when your target is `exec'
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:04.089
+!MESSAGE You can't do that when your target is `exec'
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: You can't do that when your target is `exec'
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:04.193
+!MESSAGE Failed command: set $sp = *0x60080000
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No registers.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:04.194
+!MESSAGE No registers.
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No registers.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:04.297
+!MESSAGE Failed command: set $pc = *0x60080004 - 1
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No registers.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:04.298
+!MESSAGE No registers.
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No registers.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.cdt.debug.core 4 1000 2013-12-09 19:00:04.361
+!MESSAGE Internal error logged from CDI Debug: 
+!STACK 0
+org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: No registers.[No registers.]
+	at org.eclipse.cdt.debug.mi.core.cdi.RegisterManager.getRegisterDescriptors(RegisterManager.java:195)
+	at org.eclipse.cdt.debug.mi.core.cdi.RegisterManager.getRegisterDescriptors(RegisterManager.java:173)
+	at org.eclipse.cdt.debug.mi.core.cdi.model.RegisterGroup.getRegisterDescriptors(RegisterGroup.java:42)
+	at org.eclipse.cdt.debug.internal.core.CRegisterManager.initialize(CRegisterManager.java:127)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.initializeRegisters(CDebugTarget.java:356)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.initialize(CDebugTarget.java:287)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.<init>(CDebugTarget.java:275)
+	at org.eclipse.cdt.debug.core.CDIDebugModel$1.run(CDIDebugModel.java:100)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1782)
+	at org.eclipse.cdt.debug.core.CDIDebugModel.newDebugTarget(CDIDebugModel.java:105)
+	at org.eclipse.cdt.debug.core.CDIDebugModel.newDebugTarget(CDIDebugModel.java:172)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.createLaunchTarget(Launch.java:361)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:283)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:04.480
+!MESSAGE Failed command: cont
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: The program is not being run.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:292)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 19:00:04.480
+!MESSAGE The program is not being run.
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: The program is not being run.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:292)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:00:10.588
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:00:10.593
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:00:10.597
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:00:10.601
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:00:10.605
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:04:57.302
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:04:57.309
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:04:57.315
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:04:57.321
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:04:57.332
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:08:16.918
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:08:16.921
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:08:16.924
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:08:16.927
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:08:16.930
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:09:51.135
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:09:51.139
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:09:51.143
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:09:51.146
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:09:51.150
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:10:55.031
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:10:55.035
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:10:55.038
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:10:55.042
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:10:55.046
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:13:56.067
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:13:56.070
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:13:56.073
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:13:56.077
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:13:56.080
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:14:26.409
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:14:26.413
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:14:26.417
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:14:26.420
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:14:26.424
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:18:37.779
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:18:37.783
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:18:37.787
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:18:37.791
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:18:37.795
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:21:49.400
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:21:49.404
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:21:49.408
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:21:49.411
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:21:49.414
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:22:33.849
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:22:33.852
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:22:33.856
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:22:33.860
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:22:33.864
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:23:11.140
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:23:11.144
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:23:11.147
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:23:11.151
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:23:11.155
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:23:41.172
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:23:41.176
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:23:41.179
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:23:41.183
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:23:41.187
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:24:32.325
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:24:32.329
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:24:32.333
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:24:32.337
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:24:32.341
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:25:34.958
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:25:34.961
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:25:34.964
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:25:34.967
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:25:34.970
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:26:32.563
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:26:32.567
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:26:32.571
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:26:32.576
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:26:32.580
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:26:59.541
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:26:59.545
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:26:59.550
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:26:59.554
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:26:59.558
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:27:40.733
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:27:40.738
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:27:40.742
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:27:40.746
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:27:40.750
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:29:58.703
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:29:58.706
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:29:58.710
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:29:58.715
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:29:58.719
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:32:15.851
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:32:15.865
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:32:15.872
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:32:15.880
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:32:15.888
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:32:52.421
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:32:52.425
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:32:52.428
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:32:52.432
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:32:52.436
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:33:47.605
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:33:47.610
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:33:47.616
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:33:47.623
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:33:47.630
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:36:05.199
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:36:05.202
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:36:05.206
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:36:05.210
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:36:05.214
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:39:11.604
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:39:11.608
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:39:11.612
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:39:11.617
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:39:11.622
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:39:56.697
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:39:56.701
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:39:56.704
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:39:56.708
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:39:56.712
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:42:29.303
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:42:29.306
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:42:29.308
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:42:29.311
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:42:29.314
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:43:35.014
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:43:35.019
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:43:35.023
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:43:35.027
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:43:35.032
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:45:57.592
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:45:57.595
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:45:57.597
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:45:57.600
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 19:45:57.602
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:41:51.449
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:41:51.454
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:41:51.458
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:41:51.462
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:41:51.469
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:44:46.315
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:44:46.320
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:44:46.326
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:44:46.331
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:44:46.335
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:45:32.738
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:45:32.745
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:45:32.751
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:45:32.756
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:45:32.760
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:46:33.141
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:46:33.146
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:46:33.151
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:46:33.156
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:46:33.160
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:47:12.320
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:47:12.324
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:47:12.328
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:47:12.333
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:47:12.337
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:48:14.192
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:48:14.196
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:48:14.201
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:48:14.205
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:48:14.210
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:50:29.115
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:50:29.120
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:50:29.127
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:50:29.147
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 20:50:29.169
+!MESSAGE Inferior terminated
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:06.191
+!MESSAGE Failed command: target remote | "C:/Actel/Libero_v9.1/SoftConsole/Eclipse//../Sourcery-G++/bin/arm-none-eabi-sprite" flashpro:?cpu=Cortex-M3 "N:/EECS_373/Project/new_base_station/SoftConsole/controller_MSS_MSS_CM3_0/controller_MSS_MSS_CM3_0_app/Debug"
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Remote communication error: No error.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:06.191
+!MESSAGE Remote communication error: No error.
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Remote communication error: No error.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:06.396
+!MESSAGE Failed command: set *0x40006010 = 0x4C6E55FA
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0x40006010
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:06.396
+!MESSAGE Cannot access memory at address 0x40006010
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0x40006010
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:06.500
+!MESSAGE Failed command: set *0xE0042000 = 0
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042000
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:06.500
+!MESSAGE Cannot access memory at address 0xe0042000
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042000
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:06.605
+!MESSAGE Failed command: set *0xE0042008 = 1
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042008
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:06.606
+!MESSAGE Cannot access memory at address 0xe0042008
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042008
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:06.710
+!MESSAGE Failed command: set *0xE0042040 = 0x00207FFD
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042040
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:06.710
+!MESSAGE Cannot access memory at address 0xe0042040
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042040
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:06.814
+!MESSAGE Failed command: set *0xE004203C = 0x00000001
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe004203c
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:06.814
+!MESSAGE Cannot access memory at address 0xe004203c
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe004203c
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:06.918
+!MESSAGE Failed command: set *0xE0042030 = *0xE0042030 & 0xFFFFFFF7
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042030
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:06.918
+!MESSAGE Cannot access memory at address 0xe0042030
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe0042030
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:07.023
+!MESSAGE Failed command: thb main
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No hardware breakpoint support in the target.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:07.023
+!MESSAGE No hardware breakpoint support in the target.
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No hardware breakpoint support in the target.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:07.127
+!MESSAGE Failed command: set *0xE000ED08 = 0x00000000
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe000ed08
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:07.127
+!MESSAGE Cannot access memory at address 0xe000ed08
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Cannot access memory at address 0xe000ed08
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:07.231
+!MESSAGE Failed command: load
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: You can't do that when your target is `exec'
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:07.231
+!MESSAGE You can't do that when your target is `exec'
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: You can't do that when your target is `exec'
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:07.336
+!MESSAGE Failed command: set $sp = *0x60080000
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No registers.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:07.336
+!MESSAGE No registers.
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No registers.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:07.440
+!MESSAGE Failed command: set $pc = *0x60080004 - 1
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No registers.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:07.440
+!MESSAGE No registers.
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: No registers.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:271)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.cdt.debug.core 4 1000 2013-12-09 21:10:07.508
+!MESSAGE Internal error logged from CDI Debug: 
+!STACK 0
+org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: No registers.[No registers.]
+	at org.eclipse.cdt.debug.mi.core.cdi.RegisterManager.getRegisterDescriptors(RegisterManager.java:195)
+	at org.eclipse.cdt.debug.mi.core.cdi.RegisterManager.getRegisterDescriptors(RegisterManager.java:173)
+	at org.eclipse.cdt.debug.mi.core.cdi.model.RegisterGroup.getRegisterDescriptors(RegisterGroup.java:42)
+	at org.eclipse.cdt.debug.internal.core.CRegisterManager.initialize(CRegisterManager.java:127)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.initializeRegisters(CDebugTarget.java:356)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.initialize(CDebugTarget.java:287)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.<init>(CDebugTarget.java:275)
+	at org.eclipse.cdt.debug.core.CDIDebugModel$1.run(CDIDebugModel.java:100)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1782)
+	at org.eclipse.cdt.debug.core.CDIDebugModel.newDebugTarget(CDIDebugModel.java:105)
+	at org.eclipse.cdt.debug.core.CDIDebugModel.newDebugTarget(CDIDebugModel.java:172)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.createLaunchTarget(Launch.java:361)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:283)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:07.618
+!MESSAGE Failed command: cont
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: The program is not being run.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:292)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.actel.softconsole.embeddedcdt.cortexm3 4 150 2013-12-09 21:10:07.618
+!MESSAGE The program is not being run.
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: The program is not being run.
+	at org.eclipse.cdt.debug.mi.core.command.Command.throwMIException(Command.java:105)
+	at org.eclipse.cdt.debug.mi.core.command.Command.getMIInfo(Command.java:79)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.executeGDBScript(Launch.java:562)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:292)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:10:16.531
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:10:16.535
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:10:16.538
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:10:16.542
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:10:16.546
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:11:22.897
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:11:22.901
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:11:22.906
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:11:22.909
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:11:22.913
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:12:00.806
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:12:00.811
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:12:00.816
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:12:00.820
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:12:00.825
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:13:58.491
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:13:58.496
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:13:58.501
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:13:58.505
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:13:58.509
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:15:24.433
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:15:24.438
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:15:24.443
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:15:24.448
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:15:24.452
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:17:09.507
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:17:09.512
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:17:09.517
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:17:09.523
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:17:09.528
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:17:41.046
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:17:41.049
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:17:41.053
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:17:41.056
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:17:41.060
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:21:39.692
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:21:39.696
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:21:39.700
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:21:39.704
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:21:39.709
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:23:01.843
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:23:01.846
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:23:01.850
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:23:01.855
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:23:01.859
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:28:46.322
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:28:46.327
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:28:46.331
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:28:46.334
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:28:46.339
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:43:57.202
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:43:57.206
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:43:57.210
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:43:57.214
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:43:57.218
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:50:38.757
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:50:38.761
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:50:38.764
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:50:38.768
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:50:38.772
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:52:50.264
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:52:50.268
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:52:50.272
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:52:50.275
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:52:50.280
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:54:48.662
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:54:48.667
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:54:48.671
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:54:48.675
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:54:48.678
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:59:38.828
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:59:38.834
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:59:38.839
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:59:38.844
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 21:59:38.849
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.core.resources 4 1 2013-12-09 22:08:30.943
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2013-12-09 22:08:30.943
+!MESSAGE Problem finding next change, code: 995
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 22:52:44.355
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 22:52:44.359
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 22:52:44.363
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 22:52:44.368
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 22:52:44.374
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 23:31:18.180
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 23:31:18.185
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 23:31:18.190
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 23:31:18.196
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-09 23:31:18.201
+!MESSAGE Inferior terminated
+!SESSION 2013-12-10 00:48:04.727 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data N:/EECS_373/Project/new_base_station/SoftConsole/controller_MSS_MSS_CM3_0
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 00:49:06.370
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 00:49:06.383
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 00:49:06.393
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 00:49:06.402
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 00:49:06.410
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:27:05.566
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:27:05.573
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:27:05.579
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:27:05.586
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:27:05.593
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:52:11.628
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:52:11.638
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:52:11.647
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:52:11.657
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:52:11.665
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:52:38.824
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:52:38.838
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:52:38.846
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:52:38.855
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:52:38.863
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:53:24.500
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:53:24.509
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:53:24.518
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:53:24.531
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:53:24.539
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:55:44.403
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:55:44.409
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:55:44.415
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:55:44.422
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:55:44.427
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:56:06.381
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:56:06.385
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:56:06.389
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:56:06.394
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:56:06.399
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:57:05.144
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:57:05.154
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:57:05.170
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:57:05.185
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:57:05.196
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:57:42.076
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:57:42.096
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:57:42.116
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:57:42.129
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 01:57:42.146
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:00:32.876
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:00:32.881
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:00:32.885
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:00:32.889
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:00:32.894
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:02:54.294
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:02:54.302
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:02:54.313
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:02:54.329
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:02:54.334
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:04:40.007
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:04:40.019
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:04:40.030
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:04:40.041
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:04:40.052
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:05:46.058
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:05:46.071
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:05:46.082
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:05:46.091
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:05:46.102
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:07:42.449
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:07:42.462
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:07:42.471
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:07:42.489
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:07:42.504
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:12:05.029
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:12:05.038
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:12:05.052
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:12:05.062
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:12:05.074
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:36:26.197
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:36:26.204
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:36:26.209
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:36:26.218
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:36:26.226
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:39:37.991
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:39:38.006
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:39:38.017
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:39:38.032
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:39:38.049
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:44:19.444
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:44:19.450
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:44:19.455
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:44:19.461
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:44:19.467
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.cdt.debug.core 4 1000 2013-12-10 02:45:33.078
+!MESSAGE Internal error logged from CDI Debug: 
+!STACK 0
+org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: Target is not responding (timed out)[]
+	at org.eclipse.cdt.debug.mi.core.cdi.SourceManager.setSourcePaths(SourceManager.java:82)
+	at org.eclipse.cdt.debug.mi.core.cdi.model.Target.setSourcePaths(Target.java:1112)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.setSourceLookupPath(CDebugTarget.java:1819)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.initializeSourceLookupPath(CDebugTarget.java:383)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.initialize(CDebugTarget.java:282)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.<init>(CDebugTarget.java:275)
+	at org.eclipse.cdt.debug.core.CDIDebugModel$1.run(CDIDebugModel.java:100)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1782)
+	at org.eclipse.cdt.debug.core.CDIDebugModel.newDebugTarget(CDIDebugModel.java:105)
+	at org.eclipse.cdt.debug.core.CDIDebugModel.newDebugTarget(CDIDebugModel.java:172)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.createLaunchTarget(Launch.java:361)
+	at com.actel.softconsole.embeddedcdt.cortexm3.launch.Launch.launch(Launch.java:283)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:49:06.259
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:49:06.264
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:49:06.269
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:49:06.273
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:49:06.277
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:49:54.622
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:49:54.634
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:49:54.640
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:49:54.649
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:49:54.663
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:54:01.361
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:54:01.365
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:54:01.370
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:54:01.376
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:54:01.381
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:54:46.699
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:54:46.705
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:54:46.712
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:54:46.724
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:54:46.739
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:56:28.195
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:56:28.202
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:56:28.212
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:56:28.222
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 02:56:28.228
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:00:39.402
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:00:39.407
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:00:39.412
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:00:39.420
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:00:39.426
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:01:20.020
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:01:20.025
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:01:20.035
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:01:20.043
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:01:20.048
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:07:26.340
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:07:26.346
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:07:26.354
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:07:26.362
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:07:26.370
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:08:26.619
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:08:26.627
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:08:26.636
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:08:26.712
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:08:26.726
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:10:17.010
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:10:17.015
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:10:17.021
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:10:17.025
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:10:17.030
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:11:21.137
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:11:21.142
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:11:21.151
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:11:21.160
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:11:21.171
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:13:55.098
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:13:55.102
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:13:55.106
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:13:55.111
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:13:55.114
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:15:50.723
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:15:50.729
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:15:50.738
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:15:50.750
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:15:50.757
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:16:50.337
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:16:50.342
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:16:50.347
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:16:50.353
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:16:50.358
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:23:14.148
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:23:14.156
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:23:14.162
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:23:14.169
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:23:14.175
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:27:15.716
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:27:15.724
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:27:15.734
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:27:15.742
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:27:15.755
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:30:09.837
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:30:09.842
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:30:09.846
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:30:09.852
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:30:09.857
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:36:03.846
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:36:03.853
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:36:03.861
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:36:03.870
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:36:03.877
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:41:30.690
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:41:30.698
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:41:30.703
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:41:30.708
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:41:30.715
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:49:55.066
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:49:55.071
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:49:55.077
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:49:55.081
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:49:55.085
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:52:54.081
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:52:54.087
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:52:54.097
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:52:54.102
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:52:54.108
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:53:39.014
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:53:39.018
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:53:39.022
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:53:39.026
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:53:39.030
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:55:31.754
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:55:31.758
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:55:31.762
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:55:31.766
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:55:31.769
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:57:30.537
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:57:30.543
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:57:30.550
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:57:30.562
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:57:30.568
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:58:05.582
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:58:05.591
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:58:05.598
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:58:05.608
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:58:05.615
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:58:42.353
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:58:42.360
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:58:42.367
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:58:42.373
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 03:58:42.381
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:00:10.830
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:00:10.837
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:00:10.844
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:00:10.850
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:00:10.856
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:07:44.884
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:07:44.888
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:07:44.893
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:07:44.900
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:07:44.904
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:10:21.390
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:10:21.395
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:10:21.401
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:10:21.404
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:10:21.408
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:18:07.132
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:18:07.141
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:18:07.146
+!MESSAGE mi_cmd_var_create: unable to create variable object
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:18:07.149
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2013-12-10 04:18:07.153
+!MESSAGE Inferior terminated

@@ -2,5 +2,5 @@
 <SynplifyOutput>
 	<result>Success</result>
 	<design>controller</design>
-	<target_edif>C:\Users\rwooster\Documents\base_station\synthesis\controller.edn</target_edif>
+	<target_edif>N:\EECS_373\Project\new_base_station\synthesis\controller.edn</target_edif>
 </SynplifyOutput>

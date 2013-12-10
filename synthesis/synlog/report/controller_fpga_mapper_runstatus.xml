@@ -5,7 +5,7 @@ The file contains the job information from mapper to be displayed as part of the
 *******************************************************************************************-->
 <job_run_status name="Mapper">
 <report_link name="Detailed report">
-<data>C:\Users\rwooster\Documents\base_station\synthesis\synlog\controller_fpga_mapper.srr</data>
+<data>N:\EECS_373\Project\new_base_station\synthesis\synlog\controller_fpga_mapper.srr</data>
 </report_link>
 <job_status>
 <data>Completed</data>
@@ -14,32 +14,32 @@ The file contains the job information from mapper to be displayed as part of the
 <info name="Notes">
 <data>10</data>
 <report_link name="more">
-<data>C:\Users\rwooster\Documents\base_station\synthesis\synlog\report\controller_fpga_mapper_notes.txt</data>
+<data>N:\EECS_373\Project\new_base_station\synthesis\synlog\report\controller_fpga_mapper_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
 <data>3</data>
 <report_link name="more">
-<data>C:\Users\rwooster\Documents\base_station\synthesis\synlog\report\controller_fpga_mapper_warnings.txt</data>
+<data>N:\EECS_373\Project\new_base_station\synthesis\synlog\report\controller_fpga_mapper_warnings.txt</data>
 </report_link>
 </info>
 <info name="Errors">
 <data>0</data>
 <report_link name="more">
-<data>C:\Users\rwooster\Documents\base_station\synthesis\synlog\report\controller_fpga_mapper_errors.txt</data>
+<data>N:\EECS_373\Project\new_base_station\synthesis\synlog\report\controller_fpga_mapper_errors.txt</data>
 </report_link>
 </info>
 <info name="CPU Time">
 <data>0h:00m:02s</data>
 </info>
 <info name="Real Time">
-<data>0h:00m:02s</data>
+<data>0h:00m:04s</data>
 </info>
 <info name="Peak Memory">
 <data>119MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1386441293</data>
+<data type="timestamp">1386628504</data>
 </info>
 </job_info>
 </job_run_status>
